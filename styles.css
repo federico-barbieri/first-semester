@@ -42,7 +42,7 @@ section{
     font-family: ethnocentric, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 2rem;
+    font-size: 8vw;
    
 }
 
@@ -50,7 +50,7 @@ section{
     font-family: ethnocentric, sans-serif;
     font-weight: 200;
     font-style: italic;
-    font-size: 1rem;
+    font-size: 4vw;
 }
 
 .fa-arrow-right-long{
@@ -201,6 +201,58 @@ section{
     color:#141E27;
     background-color: white;
 }
+
+/* HEX KBH */
+
+#hex{
+    background: rgb(247,134,246);
+    background: linear-gradient(325deg, rgba(247,134,246,1) 0%, rgba(226,247,60,1) 87%);
+    color: white;
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hex-title{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6vw;
+    
+    filter:drop-shadow(2px 2px 4px black)
+}
+
+.hex-arrow{
+    color: black;
+    transform: scale(1.2);
+    margin: 2rem auto 0 auto;
+}
+
+.hex-btn{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+    background-color:#141E27;
+    transition: all;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.chess-btn:hover{
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    box-shadow: 2px 4px 4px;
+    border-radius: 5px;
+    color:#141E27;
+    background-color: white;
+}
+
 
 /* CHAMELEON */
 
