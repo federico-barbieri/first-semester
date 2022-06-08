@@ -173,6 +173,7 @@ li:hover{
     border-radius: 5px;
     color:#141E27;
     background-color: white;
+    cursor: pointer;
 }
 
 /* HISTORY OF THE MICROCOMPUTER */
@@ -221,6 +222,7 @@ li:hover{
     border-radius: 5px;
     color:#141E27;
     background-color: white;
+    cursor: pointer;
 }
 
 /* CHESSPRESSIONISM */
@@ -269,6 +271,7 @@ li:hover{
     border-radius: 5px;
     color:#141E27;
     background-color: white;
+    cursor: pointer;
 }
 
 /* HEX KBH */
@@ -320,6 +323,7 @@ li:hover{
     border-radius: 5px;
     color:#141E27;
     background-color: white;
+    cursor: pointer;
 }
 
 
@@ -369,6 +373,7 @@ li:hover{
     border-radius: 5px;
     color:#141E27;
     background-color: white;
+    cursor: pointer;
 }
 
 /* BEERWALKS.DK */
@@ -417,13 +422,14 @@ li:hover{
     border-radius: 5px;
     color:#141E27;
     background-color: white;
+    cursor: pointer;
 }
 
 
 /* SCROLLBAR */
 
 ::-webkit-scrollbar{
-    height: 4rem;
+    height: 3.8rem;
 
 }
 
