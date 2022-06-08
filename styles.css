@@ -418,16 +418,19 @@ li:hover{
 
 ::-webkit-scrollbar{
     height: 4rem;
+
 }
 
 ::-webkit-scrollbar-track{
 background: hsl(40 50% 75% / 1);
+background: url('scroll2.svg');
 
 }
 
 ::-webkit-scrollbar-thumb{
     background:linear-gradient(lightblue, pink);
     border-radius: 100vw;
-    border: 2px solid hsl(300 50% 75% / 1);
-    width: 6rem;
+    border: 2px solid white;
+    width: 1rem;
+    
 }
