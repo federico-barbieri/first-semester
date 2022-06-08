@@ -445,6 +445,10 @@ background-size: contain;
     background:linear-gradient(lightblue, pink);
     border-radius: 100vw;
     border: 2px solid white;
-    width: 1rem;
+    width: 1rem;  
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:linear-gradient(blue, coral);
     
 }
