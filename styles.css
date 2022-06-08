@@ -28,6 +28,63 @@ section{
     scroll-snap-align: start;
 }
 
+/* HEADER */
+
+header{
+    position: absolute;
+    color: white;
+    width: 100vw;
+}
+
+.header-background{
+    background-color: #141E27;
+    opacity: 0.4;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    z-index: 5;
+    color: white;
+}
+
+.fb-logo{
+    display: inline;
+    width: 8rem;
+    height: auto;
+    margin: 0 0 0 1rem;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 0.8rem;
+    transform: translateY(-0.5rem);
+}
+
+li{
+    padding: 0.5rem 1rem;
+}
+
+li:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+
+
 /* INTRO */
 
 #intro{
