@@ -58,7 +58,7 @@ nav{
 
 .fb-logo{
     display: inline;
-    width: 3rem;
+    width: 4rem;
     height: auto;
     margin: 0 0 0 1rem;
 }
@@ -66,12 +66,12 @@ nav{
 ul{
     display: flex;
     flex-direction: row;
-    width: 70vw;
+    width: 80vw;
     align-items: center;
     justify-content: space-around;
     list-style-type: none;
     font-size: 0.8rem;
-    
+    transform: translateY(-0.5rem);
 }
 
 li{
