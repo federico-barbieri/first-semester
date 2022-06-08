@@ -40,7 +40,7 @@ header{
 .header-background{
     width: 100vw;
     background-color: #141E27;
-    opacity: 0.4;
+    opacity: 1;
     
 }
 
@@ -75,7 +75,7 @@ ul{
     list-style-type: none;
     font-size: 0.8rem;
     
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 li{
@@ -106,7 +106,8 @@ li:hover{
     font-weight: 400;
     font-style: normal;
     font-size: 9vw;
-   
+    height: 20vh;
+    filter:drop-shadow(2px 2px 4px white)
 }
 
 .first-semester-recap{
@@ -140,6 +141,7 @@ li:hover{
     font-style: normal;
     font-size: 7vw;
     margin-top: 0;
+    filter:drop-shadow(2px 2px 4px rgb(255, 215, 0))
 }
 
 .fa-arrow-down-long{
@@ -187,7 +189,7 @@ li:hover{
     font-weight: 400;
     font-style: normal;
     font-size: 7vw;
-
+    filter:drop-shadow(2px 2px 4px white)
 }
 
 .micro-arrow{
@@ -235,7 +237,7 @@ li:hover{
     font-weight: 400;
     font-style: normal;
     font-size: 6vw;
-
+    filter:drop-shadow(2px 2px 4px white)
 }
 
 .chess-arrow{
@@ -335,7 +337,7 @@ li:hover{
     font-weight: 400;
     font-style: normal;
     font-size: 6vw;
-
+    filter:drop-shadow(2px 2px 4px black)
 }
 
 .chameleon-arrow{
@@ -383,7 +385,7 @@ li:hover{
     font-weight: 400;
     font-style: normal;
     font-size: 6vw;
-
+    filter:drop-shadow(2px 2px 4px white);
 }
 
 .beer-arrow{
@@ -424,6 +426,8 @@ li:hover{
 ::-webkit-scrollbar-track{
 background: hsl(40 50% 75% / 1);
 background: url('scroll2.svg');
+background-position: center;
+background-size: contain;
 
 }
 
