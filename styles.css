@@ -37,6 +37,7 @@ header{
 }
 
 .header-background{
+    width: 100vw;
     background-color: #141E27;
     opacity: 0.4;
 }
@@ -44,10 +45,10 @@ header{
 nav{
     display: flex;
     align-items: center;
-    width: 100vw;
+    width: 90vw;
     height: 10vh;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 1rem auto 0 auto;
     font-family: ethnocentric, sans-serif;
     font-weight: 200;
     font-style: italic;
@@ -57,7 +58,7 @@ nav{
 
 .fb-logo{
     display: inline;
-    width: 8rem;
+    width: 3rem;
     height: auto;
     margin: 0 0 0 1rem;
 }
@@ -70,11 +71,12 @@ ul{
     justify-content: space-around;
     list-style-type: none;
     font-size: 0.8rem;
-    transform: translateY(-0.5rem);
+    
 }
 
 li{
-    padding: 0.5rem 1rem;
+    padding: 0.3rem 0.5rem;
+    text-align: center;
 }
 
 li:hover{
