@@ -125,13 +125,6 @@ li:hover{
 
 /* IMAGES */
 
-.img1{
-    display: inline-block;
-    max-width: 10vw;
-    height: auto;
-    filter:drop-shadow(2px 2px 8px black);
-}
-
 .russian-img{
     display: flex;
     flex-direction: row;
@@ -139,11 +132,79 @@ li:hover{
     height: auto;
     align-items: center;
     justify-content: space-around;
-    border: 2px solid white;
+    border: 2px solid black;
     margin: 0 auto;
-    background-color: rgb(255, 215, 0);
+    
     padding: 1rem 1rem;
 }
+
+.img1{
+    display: inline-block;
+    max-width: 10vw;
+    height: auto;
+    filter:drop-shadow(2px 2px 8px black);
+}
+
+
+/* PALETTE */ 
+
+.palette{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: ethnocentric, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    width: 10vw;
+    height: 40vh;
+    
+}
+
+.red{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: #c34040;
+    filter:drop-shadow(2px 2px 8px black);
+}
+
+.white{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: #FFF0F0;
+    filter:drop-shadow(2px 2px 8px black);
+}
+
+.black{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: #000000;
+    filter:drop-shadow(2px 2px 8px black);
+}
+
+/* FONTS */ 
+
+.fonts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: ethnocentric, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    width: 10vw;
+    height: 40vh;
+}
+
+.under{
+    text-decoration: underline;
+}
+
 
 /* PARAGRAPHS */
 
