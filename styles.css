@@ -197,7 +197,7 @@ li:hover{
 }
 
 .micro-arrow{
-    color: black;
+    color: white;
     transform: scale(1.2);
     margin: 2rem auto 0 auto;
 }
@@ -296,7 +296,7 @@ li:hover{
 }
 
 .hex-arrow{
-    color: black;
+    color: white;
     transform: scale(1.2);
     margin: 2rem auto 0 auto;
 }
