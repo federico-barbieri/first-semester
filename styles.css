@@ -1,0 +1,301 @@
+html{
+    font-size: 16px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: red;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    display: flex;
+}
+
+section{
+    flex: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+/* INTRO */
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color:#141E27;
+}
+
+.forward-title{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+   
+}
+
+.first-semester-recap{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.fa-arrow-right-long{
+    color: white;
+    transform: scale(1.2);
+    margin-top: 2rem;
+}
+
+/* RUSSIAN CONSTRUCTIVISM */
+
+#russian-constructivism{
+    background-color: rgb(204, 0, 0);
+    color: rgb(255, 215, 0);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.russian-title{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7vw;
+    margin-top: 0;
+}
+
+.fa-arrow-down-long{
+    color: white;
+    transform: scale(1.2);
+    margin: 2rem auto 0 auto;
+}
+
+.russian-btn{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+    background-color:#141E27;
+    transition: all;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.russian-btn:hover{
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    box-shadow: 2px 4px 4px;
+    border-radius: 5px;
+    color:#141E27;
+    background-color: white;
+}
+
+/* HISTORY OF THE MICROCOMPUTER */
+
+#microcomputer{
+    background-color: #018281;
+    color: #EEEEEE;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.microcomputer-title{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7vw;
+
+}
+
+.micro-arrow{
+    color: black;
+    transform: scale(1.2);
+    margin: 2rem auto 0 auto;
+}
+
+.micro-btn{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+    background-color:#141E27;
+    transition: all;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.micro-btn:hover{
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    box-shadow: 2px 4px 4px;
+    border-radius: 5px;
+    color:#141E27;
+    background-color: white;
+}
+
+/* CHESSPRESSIONISM */
+
+#chesspressionism{
+    background-color: #F9F9F9;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.chesspressionism-title{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6vw;
+
+}
+
+.chess-arrow{
+    color: black;
+    transform: scale(1.2);
+    margin: 2rem auto 0 auto;
+}
+
+.chess-btn{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+    background-color:#141E27;
+    transition: all;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.chess-btn:hover{
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    box-shadow: 2px 4px 4px;
+    border-radius: 5px;
+    color:#141E27;
+    background-color: white;
+}
+
+/* CHAMELEON */
+
+#chameleon{
+    background-color: #00B200;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.chameleon-title{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6vw;
+
+}
+
+.chameleon-arrow{
+    color: white;
+    transform: scale(1.2);
+    margin: 2rem auto 0 auto;
+}
+
+.chameleon-btn{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+    background-color:#141E27;
+    transition: all;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.chameleon-btn:hover{
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    box-shadow: 2px 4px 4px;
+    border-radius: 5px;
+    color:#141E27;
+    background-color: white;
+}
+
+/* BEERWALKS.DK */
+
+#beerwalks{
+    background-color: #1F2125;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.beerwalks-title{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6vw;
+
+}
+
+.beer-arrow{
+    color: white;
+    transform: scale(1.2);
+    margin: 2rem auto 0 auto;
+}
+
+.beer-btn{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+    background-color:#141E27;
+    transition: all;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.beer-btn:hover{
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    box-shadow: 2px 4px 4px;
+    border-radius: 5px;
+    color:#141E27;
+    background-color: white;
+}
+
+
