@@ -71,7 +71,7 @@ ul{
     justify-content: space-around;
     list-style-type: none;
     font-size: 0.8rem;
-    transform: translateY(-0.5rem);
+    transform: translateY(-0.2rem);
 }
 
 li{
