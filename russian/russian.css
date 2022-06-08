@@ -32,7 +32,7 @@ section{
         align-items: flex-start;
         justify-content: flex-start;
         width: 100vw;
-        height: 150vh;
+        height: 180vh;
     }
 }
 
@@ -127,12 +127,12 @@ li:hover{
 
 .russian-img{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 60vw;
     height: auto;
     align-items: center;
     justify-content: space-around;
-    border: 2px solid black;
+    
     margin: 0 auto;
     
     padding: 1rem 1rem;
@@ -157,9 +157,21 @@ li:hover{
     font-weight: 400;
     font-style: normal;
     color: white;
-    width: 10vw;
+    width: 90vw;
     height: 40vh;
-    
+}
+
+.colors{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: ethnocentric, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    width: 90vw;
+    height: 40vh;
 }
 
 .red{
@@ -199,6 +211,20 @@ li:hover{
     color: white;
     width: 10vw;
     height: 40vh;
+}
+
+.font-names{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: ethnocentric, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    width: 90vw;
+    height: 15vh;
+    border: 2px solid brown;
 }
 
 .under{
