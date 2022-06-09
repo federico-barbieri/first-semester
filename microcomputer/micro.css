@@ -1,0 +1,270 @@
+html{
+    font-size: 16px;
+}
+
+a{
+    color: inherit;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+#container{
+    width: 100%;
+    height: 100%; 
+}
+
+section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100vw;
+    height: auto;
+}
+
+@media only screen and (max-width: 1000px){
+    section{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100vw;
+        height: auto;
+    }
+}
+
+/* HEADER */
+
+header{
+    position: absolute;
+    color: white;
+    width: 100vw;
+    z-index: 100;
+}
+
+.header-background{
+    width: 100vw;
+    background-color: #141E27;
+    opacity: 1;
+    height: 10vh;
+    transform: translateY(-10vh);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-between;
+    margin: 0rem auto 0 auto;
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    z-index: 50;
+    color: white;
+    background-color: hsl(40 10% 10% / 0.4);;
+    
+}
+
+.fb-logo{
+    display: inline;
+    width: 4rem;
+    height: auto;
+    margin: 1rem 0 0 2rem;
+    z-index: 50;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 0.8rem;
+    
+    margin-top: 1.5rem;
+}
+
+li{
+    padding: 0.3rem 0.5rem;
+    text-align: center;
+}
+
+li:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+
+/* MICROCROMPUTER */
+
+#microcomputer{
+    background-color: #018281;
+    color: #EEEEEE;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.micro-title{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7vw;
+    filter:drop-shadow(2px 2px 4px black);
+    margin: 10rem auto 5rem auto;
+}
+
+/* wireframe gallery */
+
+
+.micro-gallery{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 800px){
+    .micro-gallery{
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+.wf1{
+    width: 40%;
+    height: auto;
+}
+
+.wf2{
+    width: 40%;
+    height: auto;
+}
+
+
+/* PARAGRAPHS */
+
+.this-project{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+    
+    border: 1px solid white;
+    padding: 1rem 1.5rem;
+    margin: 2rem auto;
+    width: 80vw;
+}
+
+.replicate{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+    
+    border: 1px solid white;
+    padding: 1rem 1.5rem;
+    margin: 2rem auto;
+    width: 80vw;
+}
+
+.responsive{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+    
+    border: 1px solid white;
+    padding: 1rem 1.5rem;
+    margin: 2rem auto;
+    width: 80vw;
+}
+
+.means{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem 1.5rem;
+    margin: 2rem auto;
+    width: 80vw;
+}
+
+.win{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem 1.5rem;
+    margin: 2rem auto;
+    width: 80vw;
+}
+
+/* FUNCTION CODE */ 
+
+.function-code{
+    width: 40%;
+    height: auto;
+}
+
+
+.final-product{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+    
+    border: 1px solid white;
+    padding: 1rem 1.5rem;
+    margin: 2rem auto;
+    width: 80vw;
+}
+
+
+/* BUTTON */
+
+.micro-btn{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+    background-color:#141E27;
+    transition: all;
+    margin: 2rem auto 4rem auto;
+    padding: 0.5rem 1rem;
+}
+
+.micro-btn:hover{
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    box-shadow: 2px 4px 4px;
+    border-radius: 5px;
+    color:#141E27;
+    background-color: white;
+    cursor: pointer;
+}

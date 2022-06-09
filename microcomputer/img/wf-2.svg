@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <filter id="START_BUTTON" x="671.5" y="420" width="587" height="248.5" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Wireframe_-_intro">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Wireframe_-_intro" data-name="Wireframe - intro" clip-path="url(#clip-Wireframe_-_intro)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(-230.383 -27)">
+      <g id="outer_border" data-name="outer border" transform="translate(607 77)" fill="none" stroke="#707070" stroke-width="2">
+        <rect width="1166.767" height="974.127" stroke="none"/>
+        <rect x="1" y="1" width="1164.767" height="972.127" fill="none"/>
+      </g>
+      <g id="bottom_rectangle" data-name="bottom rectangle" transform="translate(607 944.561)" fill="none">
+        <path d="M0,0H1166.767V106.567H0Z" stroke="none"/>
+        <path d="M 1 0.999969482421875 L 1 105.566535949707 L 1165.7666015625 105.566535949707 L 1165.7666015625 0.999969482421875 L 1 0.999969482421875 M 0 -3.0517578125e-05 L 1166.7666015625 -3.0517578125e-05 L 1166.7666015625 106.566535949707 L 0 106.566535949707 L 0 -3.0517578125e-05 Z" stroke="none" fill="#707070"/>
+      </g>
+      <g id="upper_rectangle" data-name="upper rectangle" transform="translate(607 77)" fill="none" stroke="#707070" stroke-width="1">
+        <rect width="1166.767" height="88.805" stroke="none"/>
+        <rect x="0.5" y="0.5" width="1165.767" height="87.805" fill="none"/>
+      </g>
+      <g id="left_rectangle" data-name="left rectangle" transform="translate(607 165.805)" fill="none">
+        <path d="M0,0H36.888V778.755H0Z" stroke="none"/>
+        <path d="M 1.000003814697266 1 L 1.000003814697266 777.7552490234375 L 35.88840484619141 777.7552490234375 L 35.88840484619141 1 L 1.000003814697266 1 M 3.814697265625e-06 0 L 36.88840484619141 0 L 36.88840484619141 778.7552490234375 L 3.814697265625e-06 778.7552490234375 L 3.814697265625e-06 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <g id="right_rectangle" data-name="right rectangle" transform="translate(1736.878 165.805)" fill="none">
+        <path d="M0,0H36.888V778.755H0Z" stroke="none"/>
+        <path d="M 1.000003814697266 1 L 1.000003814697266 777.7552490234375 L 35.88840484619141 777.7552490234375 L 35.88840484619141 1 L 1.000003814697266 1 M 3.814697265625e-06 0 L 36.88840484619141 0 L 36.88840484619141 778.7552490234375 L 3.814697265625e-06 778.7552490234375 L 3.814697265625e-06 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <path id="upper-inner_shadow" data-name="upper-inner shadow" d="M634,142l80.593,33.124h928.144v4.62l78.82-37.061Z" transform="translate(9.888 23.805)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="left-inner_shadow" data-name="left-inner shadow" d="M634,912.262l74.923-28.839V176.294L634,141.34Z" transform="translate(9.888 23.564)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="right-inner_shadow" data-name="right-inner shadow" d="M1455.48,921.116l-80.132-48.574V178.834l80.132-37.818Z" transform="translate(281.398 23.445)" fill="none"/>
+      <path id="bottom-inner_shadow" data-name="bottom-inner shadow" d="M707.43,685.812,717.9,693.16h929.252l4.041-17.641,80.185,50.7-1098.058.122v-12.56Z" transform="translate(9.64 219.2)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Path_2" data-name="Path 2" d="M777.793,854V968.222h678.938L1399.566,854Z" transform="translate(62.551 284.566)" fill="#430707"/>
+      <path id="Path_1" data-name="Path 1" d="M882.63,856.086c-14.646.738,13.477,65.964,175.324,64s183.148-49.537,177.242-64S897.276,855.348,882.63,856.086Z" transform="translate(97.896 278.25)" fill="#502323"/>
+      <g id="first-base" transform="translate(719.031 1051.127)" fill="none" stroke="#707070" stroke-width="1">
+        <rect width="914.013" height="87.439" stroke="none"/>
+        <rect x="0.5" y="0.5" width="913.013" height="86.439" fill="none"/>
+      </g>
+    </g>
+    <path id="green_monitor" data-name="green monitor" d="M497.831,886.362l-10.659-8.473V172.964h946.106l-6.027,692.975,6.027,11.95-6.027,8.473Z" transform="translate(0.328 -0.464)" fill="none" stroke="#707070" stroke-width="1"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#START_BUTTON)">
+      <g id="START_BUTTON-2" data-name="START BUTTON" transform="translate(682 422)" fill="none" stroke-linecap="square">
+        <path d="M0,0H556V216H0Z" stroke="none"/>
+        <path d="M 0 0 L 0 216 L 556 216 L 556 0 L 0 0 M -2 -2 L 558 -2 L 558 218 L -2 218 L -2 -2 Z" stroke="none" fill="gray"/>
+      </g>
+    </g>
+    <text id="h1" transform="translate(935 547)" font-size="50" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">h1</tspan></text>
+  </g>
+</svg>
