@@ -23,7 +23,7 @@ section{
     align-items: flex-start;
     justify-content: flex-start;
     width: 100vw;
-    height: 200vh;
+    height: auto;
 }
 
 @media only screen and (max-width: 1000px){
@@ -32,7 +32,7 @@ section{
         align-items: flex-start;
         justify-content: flex-start;
         width: 100vw;
-        height: 230vh;
+        height: auto;
     }
 }
 
@@ -121,6 +121,7 @@ li:hover{
     font-style: normal;
     font-size: 7vw;
     filter:drop-shadow(2px 2px 4px black);
+    margin: 10rem auto 5rem auto;
 }
 
 /* IMAGES */
@@ -283,7 +284,7 @@ li:hover{
     color: white;
     background-color:#141E27;
     transition: all;
-    margin-top: 2rem;
+    margin: 2rem auto 4rem auto;
     padding: 0.5rem 1rem;
 }
 
