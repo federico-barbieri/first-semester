@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <filter id="Path_8" x="82" y="356" width="170.25" height="77.46" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_8" x="244" y="363.45" width="814" height="54" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <path id="green_monitor" data-name="green monitor" d="M487.722,209.764l-.55-.437V172.964h48.805l-.311,35.747.311.616-.311.437Z" transform="translate(-487.172 -172.964)" fill="#d5dc5b" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="Line_4" x="325.99" y="435.984" width="729.451" height="14" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Wireframe_-_nav_1">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Wireframe_-_nav_1" data-name="Wireframe - nav – 1" clip-path="url(#clip-Wireframe_-_nav_1)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <path id="upper-inner_shadow" data-name="upper-inner shadow" d="M634,142l113.724,46.742H2057.43v6.519l111.223-52.3Z" transform="translate(-440.016 -165.128)" fill="none" stroke="#707070" stroke-width="1"/>
+    <g id="Group_7" data-name="Group 7" transform="translate(2150 -1827)">
+      <g transform="matrix(1, 0, 0, 1, -2150, 1827)" filter="url(#Path_8)">
+        <g id="Path_8-2" data-name="Path 8" transform="translate(95 362)" fill="#bfc7c8">
+          <path d="M 133.2505187988281 40.45971298217773 L 1.000004887580872 40.45971298217773 L 1.000004887580872 1.000005722045898 L 133.2505187988281 1.000005722045898 L 133.2505187988281 40.45971298217773 Z" stroke="none"/>
+          <path d="M 2 2.000007629394531 L 2 39.459716796875 L 132.2505187988281 39.459716796875 L 132.2505187988281 2.000007629394531 L 2 2.000007629394531 M 0 7.62939453125e-06 L 134.2505187988281 7.62939453125e-06 L 134.2505187988281 41.45971298217773 L 0 41.45971298217773 L 0 7.62939453125e-06 Z" stroke="none" fill="#101010"/>
+        </g>
+      </g>
+      <path id="Path_7" data-name="Path 7" d="M0,0H14.478" transform="translate(-2010.579 2220.917)" fill="none" stroke="#080808" stroke-width="1"/>
+      <g id="Group_4" data-name="Group 4" transform="translate(-1959.248 2207.427)">
+        <line id="Line_2" data-name="Line 2" y1="4.709" x2="3.96" transform="translate(0 3.439)" fill="none" stroke="#000" stroke-width="3"/>
+        <line id="Line_3" data-name="Line 3" x2="3.96" y2="4.709" transform="translate(0 0)" fill="none" stroke="#000" stroke-width="3"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -2150, 1827)" filter="url(#Rectangle_8)">
+        <g id="Rectangle_8-2" data-name="Rectangle 8" transform="translate(250 364.45)" fill="#0b00a8" stroke="#707070" stroke-width="1">
+          <rect width="796" height="36" stroke="none"/>
+          <rect x="0.5" y="0.5" width="795" height="35" fill="none"/>
+        </g>
+      </g>
+      <text id="History_of_the_micro_computer" data-name="History of the micro computer" transform="translate(-1891 2216.451)" fill="#fff" font-size="25" font-family="TimesNewRomanPS-BoldMT, Times New Roman" font-weight="700"><tspan x="0" y="0">History of the micro computer</tspan></text>
+      <g id="Group_6" data-name="Group 6" transform="translate(-1513.391 2413.435)">
+        <g id="Mask_Group_13" data-name="Mask Group 13" transform="translate(0 0)" clip-path="url(#clip-path)">
+          <path id="folder-solid" d="M38.115,56.214H22.343l-5.257-5.257H3.943A3.944,3.944,0,0,0,0,54.9v6.572H42.058V60.157A3.944,3.944,0,0,0,38.115,56.214ZM0,83.815a3.944,3.944,0,0,0,3.943,3.943H38.115a3.944,3.944,0,0,0,3.943-3.943V64.1H0Z" transform="translate(3.374 -50.957)" fill="#d5dc5b"/>
+        </g>
+        <g id="Mask_Group_15" data-name="Mask Group 15" transform="translate(217.292 0)" clip-path="url(#clip-path)" style="isolation: isolate">
+          <path id="folder-solid-2" data-name="folder-solid" d="M38.115,56.214H22.343l-5.257-5.257H3.943A3.944,3.944,0,0,0,0,54.9v6.572H42.058V60.157A3.944,3.944,0,0,0,38.115,56.214ZM0,83.815a3.944,3.944,0,0,0,3.943,3.943H38.115a3.944,3.944,0,0,0,3.943-3.943V64.1H0Z" transform="translate(3.374 -50.957)" fill="#d5dc5b"/>
+        </g>
+        <g id="Mask_Group_16" data-name="Mask Group 16" transform="translate(323.91 0)" clip-path="url(#clip-path)" style="isolation: isolate">
+          <path id="folder-solid-3" data-name="folder-solid" d="M38.115,56.214H22.343l-5.257-5.257H3.943A3.944,3.944,0,0,0,0,54.9v6.572H42.058V60.157A3.944,3.944,0,0,0,38.115,56.214ZM0,83.815a3.944,3.944,0,0,0,3.943,3.943H38.115a3.944,3.944,0,0,0,3.943-3.943V64.1H0Z" transform="translate(3.374 -50.957)" fill="#d5dc5b"/>
+        </g>
+        <g id="Mask_Group_14" data-name="Mask Group 14" transform="translate(108.646 0)" clip-path="url(#clip-path)">
+          <path id="folder-solid-4" data-name="folder-solid" d="M38.115,56.214H22.343l-5.257-5.257H3.943A3.944,3.944,0,0,0,0,54.9v6.572H42.058V60.157A3.944,3.944,0,0,0,38.115,56.214ZM0,83.815a3.944,3.944,0,0,0,3.943,3.943H38.115a3.944,3.944,0,0,0,3.943-3.943V64.1H0Z" transform="translate(3.374 -50.957)" fill="#d5dc5b"/>
+        </g>
+      </g>
+      <g id="Group_5" data-name="Group 5" transform="translate(-1964.897 2319.302)">
+        <g id="Path_9" data-name="Path 9" transform="translate(0.056 124.379)" fill="#bfc7c8">
+          <path d="M 206.8898468017578 40.4597282409668 L 1.000002384185791 40.4597282409668 L 1.000002384185791 0.9999918937683105 L 206.8898468017578 0.9999918937683105 L 206.8898468017578 40.4597282409668 Z" stroke="none"/>
+          <path d="M 2 2 L 2 39.45972061157227 L 205.8898468017578 39.45972061157227 L 205.8898468017578 2 L 2 2 M 0 0 L 207.8898468017578 0 L 207.8898468017578 41.45972061157227 L 0 41.45972061157227 L 0 0 Z" stroke="none" fill="#101010"/>
+        </g>
+        <g id="Path_10" data-name="Path 10" transform="translate(211.303 124.379)" fill="#bfc7c8">
+          <path d="M 206.8898468017578 40.4597282409668 L 1.000002384185791 40.4597282409668 L 1.000002384185791 0.9999918937683105 L 206.8898468017578 0.9999918937683105 L 206.8898468017578 40.4597282409668 Z" stroke="none"/>
+          <path d="M 2 2 L 2 39.45972061157227 L 205.8898468017578 39.45972061157227 L 205.8898468017578 2 L 2 2 M 0 0 L 207.8898468017578 0 L 207.8898468017578 41.45972061157227 L 0 41.45972061157227 L 0 0 Z" stroke="none" fill="#101010"/>
+        </g>
+        <g id="Path_11" data-name="Path 11" transform="translate(211.303 82.919)" fill="#bfc7c8">
+          <path d="M 206.8898468017578 40.4597282409668 L 1.000002384185791 40.4597282409668 L 1.000002384185791 0.9999918937683105 L 206.8898468017578 0.9999918937683105 L 206.8898468017578 40.4597282409668 Z" stroke="none"/>
+          <path d="M 2 2 L 2 39.45972061157227 L 205.8898468017578 39.45972061157227 L 205.8898468017578 2 L 2 2 M 0 0 L 207.8898468017578 0 L 207.8898468017578 41.45972061157227 L 0 41.45972061157227 L 0 0 Z" stroke="none" fill="#101010"/>
+        </g>
+        <g id="Path_12" data-name="Path 12" transform="translate(211.303 41.46)" fill="#bfc7c8">
+          <path d="M 206.8898468017578 40.4597282409668 L 1.000002384185791 40.4597282409668 L 1.000002384185791 0.9999918937683105 L 206.8898468017578 0.9999918937683105 L 206.8898468017578 40.4597282409668 Z" stroke="none"/>
+          <path d="M 2 2 L 2 39.45972061157227 L 205.8898468017578 39.45972061157227 L 205.8898468017578 2 L 2 2 M 0 0 L 207.8898468017578 0 L 207.8898468017578 41.45972061157227 L 0 41.45972061157227 L 0 0 Z" stroke="none" fill="#101010"/>
+        </g>
+        <g id="Path_13" data-name="Path 13" transform="translate(211.303 0)" fill="#bfc7c8">
+          <path d="M 206.8898468017578 40.4597282409668 L 1.000002384185791 40.4597282409668 L 1.000002384185791 0.9999918937683105 L 206.8898468017578 0.9999918937683105 L 206.8898468017578 40.4597282409668 Z" stroke="none"/>
+          <path d="M 2 2 L 2 39.45972061157227 L 205.8898468017578 39.45972061157227 L 205.8898468017578 2 L 2 2 M 0 0 L 207.8898468017578 0 L 207.8898468017578 41.45972061157227 L 0 41.45972061157227 L 0 0 Z" stroke="none" fill="#101010"/>
+        </g>
+        <text id="articles" transform="translate(23.982 150.251)" font-size="18" font-family="TimesNewRomanPS-BoldMT, Times New Roman" font-weight="700"><tspan x="0" y="0">articles</tspan></text>
+        <text id="article4" transform="translate(235.229 151.251)" font-size="19" font-family="TimesNewRomanPS-BoldMT, Times New Roman" font-weight="700"><tspan x="0" y="0">article4</tspan></text>
+        <text id="article3" transform="translate(235.229 109.791)" font-size="19" font-family="TimesNewRomanPS-BoldMT, Times New Roman" font-weight="700"><tspan x="0" y="0">article3</tspan></text>
+        <text id="article2" transform="translate(235.229 68.331)" font-size="19" font-family="TimesNewRomanPS-BoldMT, Times New Roman" font-weight="700"><tspan x="0" y="0">article2</tspan></text>
+        <text id="article1" transform="translate(235.229 26.871)" font-size="19" font-family="TimesNewRomanPS-BoldMT, Times New Roman" font-weight="700"><tspan x="0" y="0">article1</tspan></text>
+        <rect id="Rectangle_7" data-name="Rectangle 7" width="861" height="60" transform="translate(-0.103 165.149)" fill="#bfc7c8"/>
+        <g id="Path_6" data-name="Path 6" transform="translate(719.296 174.394)" fill="#bfc7c8">
+          <path d="M 132.4934844970703 40.45971298217773 L 0.9999967813491821 40.45971298217773 L 0.9999967813491821 1.000005722045898 L 132.4934844970703 1.000005722045898 L 132.4934844970703 40.45971298217773 Z" stroke="none"/>
+          <path d="M 2 2.000007629394531 L 2 39.459716796875 L 131.4934844970703 39.459716796875 L 131.4934844970703 2.000007629394531 L 2 2.000007629394531 M 0 7.62939453125e-06 L 133.4934844970703 7.62939453125e-06 L 133.4934844970703 41.45971298217773 L 0 41.45971298217773 L 0 7.62939453125e-06 Z" stroke="none" fill="#101010"/>
+        </g>
+        <text id="time" transform="translate(770.897 201.148)" font-size="19" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">time</tspan></text>
+        <g id="Path_5" data-name="Path 5" transform="translate(7.718 174.394)" fill="#bfc7c8">
+          <path d="M 100.9310455322266 40.4597282409668 L 1.00000274181366 40.4597282409668 L 1.00000274181366 1.000006914138794 L 100.9310455322266 1.000006914138794 L 100.9310455322266 40.4597282409668 Z" stroke="none"/>
+          <path d="M 1.999992370605469 2.000003814697266 L 1.999992370605469 39.459716796875 L 99.93103790283203 39.459716796875 L 99.93103790283203 2.000003814697266 L 1.999992370605469 2.000003814697266 M -7.62939453125e-06 3.814697265625e-06 L 101.931037902832 3.814697265625e-06 L 101.931037902832 41.459716796875 L -7.62939453125e-06 41.459716796875 L -7.62939453125e-06 3.814697265625e-06 Z" stroke="none" fill="#101010"/>
+        </g>
+        <text id="nav" transform="translate(31.897 201.148)" font-size="19" font-family="TimesNewRomanPS-BoldMT, Times New Roman" font-weight="700"><tspan x="0" y="0">nav</tspan></text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -2150, 1827)" filter="url(#Line_4)">
+        <line id="Line_4-2" data-name="Line 4" x2="719.951" transform="translate(325.99 439.98)" fill="rgba(0,0,0,0)" stroke="#a7a6a6" stroke-width="5"/>
+      </g>
+    </g>
+    <g id="Group_9" data-name="Group 9" transform="translate(1055 77.333)">
+      <g id="Rectangle_10" data-name="Rectangle 10" transform="translate(109 56.667)" fill="#008081" stroke="#707070" stroke-width="1">
+        <rect width="104" height="104" stroke="none"/>
+        <rect x="0.5" y="0.5" width="103" height="103" fill="none"/>
+      </g>
+      <g id="Rectangle_11" data-name="Rectangle 11" transform="translate(109 197.667)" fill="#bfc7c8" stroke="#707070" stroke-width="1">
+        <rect width="104" height="104" stroke="none"/>
+        <rect x="0.5" y="0.5" width="103" height="103" fill="none"/>
+      </g>
+      <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(109 339.667)" stroke="#707070" stroke-width="1">
+        <rect width="104" height="103" stroke="none"/>
+        <rect x="0.5" y="0.5" width="103" height="102" fill="none"/>
+      </g>
+      <g id="Rectangle_13" data-name="Rectangle 13" transform="translate(109 481.667)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="104" height="103" stroke="none"/>
+        <rect x="0.5" y="0.5" width="103" height="102" fill="none"/>
+      </g>
+      <g id="Rectangle_14" data-name="Rectangle 14" transform="translate(109 622.667)" fill="#0b00a8" stroke="#707070" stroke-width="1">
+        <rect width="104" height="104" stroke="none"/>
+        <rect x="0.5" y="0.5" width="103" height="103" fill="none"/>
+      </g>
+      <g id="Rectangle_15" data-name="Rectangle 15" transform="translate(109 764.667)" fill="#d5dc5b" stroke="#707070" stroke-width="1">
+        <rect width="104" height="103" stroke="none"/>
+        <rect x="0.5" y="0.5" width="103" height="102" fill="none"/>
+      </g>
+      <text id="Green_for_the_monitor_s_screen." data-name="Green for the monitor’s screen." transform="translate(255 119.667)" font-size="33" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">Green for the monitor’s screen.</tspan></text>
+      <text id="Gray_for_the_bars_buttons_and_monitor." data-name="Gray for the bars, buttons and monitor." transform="translate(253 260.667)" font-size="33" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">Gray for the bars, buttons and monitor.</tspan></text>
+      <text id="Black_for_fonts." data-name="Black for fonts." transform="translate(253 403.667)" font-size="33" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">Black for fonts.</tspan></text>
+      <text id="White_for_background_and_contrast." data-name="White for background and contrast." transform="translate(253 544.667)" font-size="33" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">White for background and contrast.</tspan></text>
+      <text id="Blue_for_the_background_of_the_h2_tags." data-name="Blue for the background of the h2 tags." transform="translate(253 686.667)" font-size="33" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">Blue for the background of the h2 tags.</tspan></text>
+      <text id="Yellow_for_the_folders." data-name="Yellow for the folders." transform="translate(255 827.667)" font-size="33" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">Yellow for the folders.</tspan></text>
+      <text id="_008081" data-name="#008081" transform="translate(117 116.667)" fill="#fff" font-size="25" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">#008081</tspan></text>
+      <text id="_BFC7C8" data-name="#BFC7C8" transform="translate(113 257.667)" fill="#fff" font-size="23" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">#BFC7C8</tspan></text>
+      <text id="_000000" data-name="#000000" transform="translate(120 398.667)" fill="#fff" font-size="23" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">#000000</tspan></text>
+      <text id="_FFFFFF" data-name="#FFFFFF" transform="translate(117 540.667)" font-size="23" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">#FFFFFF</tspan></text>
+      <text id="_0B00A8" data-name="#0B00A8" transform="translate(117 683.667)" fill="#fff" font-size="23" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">#0B00A8</tspan></text>
+      <text id="_D5DC5B" data-name="#D5DC5B" transform="translate(115 824.667)" font-size="21" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">#D5DC5B</tspan></text>
+    </g>
+  </g>
+</svg>

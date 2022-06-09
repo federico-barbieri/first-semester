@@ -124,16 +124,21 @@ li:hover{
     margin: 10rem auto 5rem auto;
 }
 
-/* wireframe gallery */
+/* CARDS */
 
+/* replicate card */
 
-.micro-gallery{
+.replicate-card{
     width: 80%;
     height: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    margin: 0 auto 0rem auto;
+    padding: 2rem 1rem;
 }
 
 .wf1{
@@ -141,139 +146,132 @@ li:hover{
     height: auto;
 }
 
+.this-project{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem 1.5rem;
+    margin: 2rem auto;
+    width: 30%;
+}
+
+/* elements card */
+
+.elements-card{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    margin: 0 auto 0rem auto;
+    padding: 2rem 1rem;
+}
+
+.elements-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem 1.5rem;
+    margin: 2rem auto;
+    width: 30%;
+}
+
+.wf3{
+    width: 40%;
+    height: auto;
+    display: block;
+}
+
+
+
+
+/* wireframe card */
+
+.wireframing-card{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    margin: 0 auto 0rem auto;
+    padding: 2rem 1rem;
+}
+
+.wireframe-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem 1.5rem;
+    margin: 2rem auto;
+    width: 30%;
+}
+
 .wf2{
     width: 40%;
     height: auto;
+    display: block;
 }
 
-@media only screen and (max-width: 600px){
-    .micro-gallery{
-        width: 90%;
-        height: 60vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        
-    }
+/* favorite card */
+
+.favorite-card{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    margin: 0 auto 0rem auto;
+    padding: 2rem 1rem;
 }
 
-
-@media only screen and (max-width: 800px){
-    .micro-gallery{
-        width: 90%;
-        height: 80vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        
-    }
-    .wf1{
-        display: block;
-        width: 80vw;
-        height: 50%;
-    }
-    
-    .wf2{
-        width: 80vw;
-        height: 50%;
-    }
-}
-
-
-/* PARAGRAPHS */
-
-.this-project{
-    font-family: ethnocentric, sans-serif;
-    font-weight: 200;
-    font-style: italic;
-    font-size: 1rem;
-    color: white;
-    
-    border: 1px solid white;
-    padding: 1rem 1.5rem;
-    margin: 2rem auto;
-    width: 80vw;
-}
-
-.replicate{
-    font-family: ethnocentric, sans-serif;
-    font-weight: 200;
-    font-style: italic;
-    font-size: 1rem;
-    color: white;
-    
-    border: 1px solid white;
-    padding: 1rem 1.5rem;
-    margin: 2rem auto;
-    width: 80vw;
-}
-
-.responsive{
-    font-family: ethnocentric, sans-serif;
-    font-weight: 200;
-    font-style: italic;
-    font-size: 1rem;
-    color: white;
-    
-    border: 1px solid white;
-    padding: 1rem 1.5rem;
-    margin: 2rem auto;
-    width: 80vw;
-}
-
-.means{
-    font-family: ethnocentric, sans-serif;
-    font-weight: 200;
-    font-style: italic;
+.favorite-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 1rem;
     color: white;
     border: 1px solid white;
     padding: 1rem 1.5rem;
     margin: 2rem auto;
-    width: 80vw;
+    width: 30%;
 }
-
-.win{
-    font-family: ethnocentric, sans-serif;
-    font-weight: 200;
-    font-style: italic;
-    font-size: 1rem;
-    color: white;
-    border: 1px solid white;
-    padding: 1rem 1.5rem;
-    margin: 2rem auto;
-    width: 80vw;
-}
-
-/* FUNCTION CODE */ 
 
 .function-code{
     width: 40%;
     height: auto;
 }
 
-@media only screen and (max-width: 600px){
-    .function-code{
-        width: 85%;
-        height: auto;
-    }
-    
-}
-
+/* final product link */
 
 .final-product{
-    font-family: ethnocentric, sans-serif;
-    font-weight: 200;
-    font-style: italic;
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 1rem;
     color: white;
     
     border: 1px solid white;
     padding: 1rem 1.5rem;
-    margin: 2rem auto;
-    width: 80vw;
+    margin: 4rem auto;
+    width: auto;
 }
 
 
@@ -299,4 +297,187 @@ li:hover{
     color:#141E27;
     background-color: white;
     cursor: pointer;
+}
+
+
+/* media query before 600px */
+
+@media only screen and (max-width: 600px){
+
+/* CARDS */
+
+/* replicate card */
+
+.replicate-card{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    margin: 0 auto 0rem auto;
+    padding: 2rem 1rem;
+}
+
+.wf1{
+    width: 80%;
+    height: auto;
+}
+
+.this-project{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem 1.5rem;
+    margin: 2rem auto;
+    width: 70%;
+}
+
+/* elements card */
+
+.elements-card{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    margin: 0 auto 0rem auto;
+    padding: 2rem 1rem;
+}
+
+.elements-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem 1.5rem;
+    margin: 2rem auto;
+    width: 70%;
+}
+
+.wf3{
+    width: 80%;
+    height: auto;
+    display: block;
+}
+
+
+
+
+/* wireframe card */
+
+.wireframing-card{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    margin: 0 auto 0rem auto;
+    padding: 2rem 1rem;
+}
+
+.wireframe-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem 1.5rem;
+    margin: 2rem auto;
+    width: 70%;
+}
+
+.wf2{
+    width: 80%;
+    height: auto;
+    display: block;
+}
+
+/* favorite card */
+
+.favorite-card{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    margin: 0 auto 0rem auto;
+    padding: 2rem 1rem;
+}
+
+.favorite-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem 1.5rem;
+    margin: 2rem auto;
+    width: 70%;
+}
+
+.function-code{
+    width: 100%;
+    height: auto;
+}
+
+/* final product link */
+
+.final-product{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    
+    border: 1px solid white;
+    padding: 1rem 1.5rem;
+    margin: 4rem auto;
+    width: auto;
+}
+
+
+/* BUTTON */
+
+.micro-btn{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+    background-color:#141E27;
+    transition: all;
+    margin: 2rem auto 4rem auto;
+    padding: 0.5rem 1rem;
+}
+
+.micro-btn:hover{
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    box-shadow: 2px 4px 4px;
+    border-radius: 5px;
+    color:#141E27;
+    background-color: white;
+    cursor: pointer;
+}
+
+
 }
