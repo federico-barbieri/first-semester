@@ -254,6 +254,14 @@ li:hover{
     height: auto;
 }
 
+@media only screen and (max-width: 600px){
+    .function-code{
+        width: 85%;
+        height: auto;
+    }
+    
+}
+
 
 .final-product{
     font-family: ethnocentric, sans-serif;
