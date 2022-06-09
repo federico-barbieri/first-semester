@@ -136,17 +136,6 @@ li:hover{
     justify-content: space-around;
 }
 
-@media only screen and (max-width: 800px){
-    .micro-gallery{
-        width: 80%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-}
-
 .wf1{
     width: 40%;
     height: auto;
@@ -155,6 +144,41 @@ li:hover{
 .wf2{
     width: 40%;
     height: auto;
+}
+
+@media only screen and (max-width: 600px){
+    .micro-gallery{
+        width: 90%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+}
+
+
+@media only screen and (max-width: 800px){
+    .micro-gallery{
+        width: 90%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    .wf1{
+        display: block;
+        width: 80vw;
+        height: 50%;
+    }
+    
+    .wf2{
+        width: 80vw;
+        height: 50%;
+    }
 }
 
 
