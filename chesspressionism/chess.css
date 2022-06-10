@@ -162,7 +162,7 @@ li:hover{
 
 /* first svg div */
 
-.chess-interfase-div{
+.chess-interface-div{
     width: 100%;
     height: auto;
     display: flex;
@@ -372,13 +372,13 @@ li:hover{
 
 .info-grid{
     display: grid;
-    width: 90vw;
+    width: 80vw;
     height: 320vh;
     grid-template-columns: 1fr;
     grid-template-rows: 8(repeat, 1fr);
     grid-template-areas:
-    "chess-p" 
     "chess-img" 
+    "chess-p" 
     "topics-p"
     "topics-span"
     "logo" 
@@ -392,7 +392,7 @@ li:hover{
 /* first p div */
 
 .chess-blog{
-    width: 90%;
+    width: 92%;
     height: 40vh;
     display: flex;
     
@@ -411,17 +411,17 @@ li:hover{
     font-style: normal;
     font-size: 1.5rem;
     color: black;
-    width: 80%;
+    width: 100%;
     display: block;
+    
 }
     
-
-
 /* first svg div */
 
-.chess-interfase-div{
+.chess-interface-div{
     width: 100%;
     height: 40vh;
+    
     display: flex;
    
     align-items: center;
@@ -436,7 +436,7 @@ li:hover{
 .chess-interface{
     
     width: 100%;
-    height: 20rem;
+    height: 40vh;
     display: block;
 }
 
