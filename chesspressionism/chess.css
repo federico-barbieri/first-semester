@@ -364,6 +364,10 @@ li:hover{
 
 @media only screen and (max-width: 800px){
 
+    .chess-title{
+        margin: 11rem auto 5rem auto;
+    }
+
 /* grid */
 
 .info-grid{
@@ -388,7 +392,7 @@ li:hover{
 /* first p div */
 
 .chess-blog{
-    width: 93%;
+    width: 90%;
     height: 40vh;
     display: flex;
     
@@ -592,7 +596,7 @@ li:hover{
     color: white;
     background-color:#141E27;
     transition: all;
-    margin: 5rem auto 4rem auto;
+    margin: 10rem auto 4rem auto;
     padding: 0.5rem 1rem;
 }
 
