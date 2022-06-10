@@ -360,3 +360,250 @@ li:hover{
     background-color: white;
     cursor: pointer;
 }
+
+
+@media only screen and (max-width: 800px){
+
+/* grid */
+
+.info-grid{
+    display: grid;
+    width: 90vw;
+    height: 320vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 8(repeat, 1fr);
+    grid-template-areas:
+    "chess-p" 
+    "chess-img" 
+    "topics-p"
+    "topics-span"
+    "logo" 
+    "logo-svg"
+    "gigantic-p"
+    "gigantic-svg"; 
+
+ 
+}
+
+/* first p div */
+
+.chess-blog{
+    width: 93%;
+    height: 40vh;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+    border: 3px solid black;
+    grid-area: chess-p;
+    background-color: white;
+}
+
+.chess-blog-p{
+    
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: black;
+    width: 80%;
+    display: block;
+}
+    
+
+
+/* first svg div */
+
+.chess-interfase-div{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    
+   
+    border: 3px solid black;
+    grid-area: chess-img;
+    background-color: black;
+}
+
+.chess-interface{
+    
+    width: 100%;
+    height: 20rem;
+    display: block;
+}
+
+
+/* TOPICS span */
+
+.topics-div{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    border: 3px solid black;
+    grid-area: topics-span;
+    background-color: black;
+}
+
+.topics-span{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    color: white;
+    
+    width: 100%;
+    
+}
+
+/* TOPICS p */
+
+.name-of-blog-div{
+    width: 100%;
+    height: 40vh;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+    border: 3px solid black;
+    grid-area: topics-p;
+    background-color: white;
+}
+
+.name-of-blog-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: black;
+    padding: 1rem;
+    width: 80%;
+    display: block;
+}
+
+/* third p div */
+
+.closure-law-div{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    border: 3px solid black;
+    grid-area: logo;
+    background-color: white;
+}
+
+.closure-law-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: black;
+    
+    width: 80%;
+    display: block;
+}
+
+/* logo svg div */
+
+.closure-svg-div{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+   
+    padding-right: 0.37rem;
+    grid-area: logo-svg;
+    background-color: black;
+}
+
+.closure-svg{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* gigantic svg div */
+
+.gigantic-svg-div{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: gigantic-svg;
+    background-color: black;
+}
+
+.gigantic-svg{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* gigantic p div */
+
+.gigantic-p-div{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    grid-area: gigantic-p;
+    background-color: white;
+}
+
+.gigantic-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: black;
+    width: 80%;
+    
+    display: block;
+}
+
+
+/* BUTTON */
+
+.chess-btn{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+    background-color:#141E27;
+    transition: all;
+    margin: 5rem auto 4rem auto;
+    padding: 0.5rem 1rem;
+}
+
+.chess-btn:hover{
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    box-shadow: 2px 4px 4px;
+    border-radius: 5px;
+    color:#141E27;
+    background-color: white;
+    cursor: pointer;
+}
+
+}
