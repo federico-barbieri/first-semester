@@ -1,0 +1,1714 @@
+html{
+    font-size: 16px;
+}
+
+a{
+    color: inherit;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+#container{
+    width: 100%;
+    height: 100%; 
+}
+
+main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100vw;
+    height: auto;
+}
+
+/* HEADER */
+
+header{
+    position: absolute;
+    color: white;
+    width: 100vw;
+    z-index: 100;
+}
+
+.header-background{
+    width: 100vw;
+    background-color: #141E27;
+    opacity: 1;
+    height: 10vh;
+    transform: translateY(-10vh);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-between;
+    margin: 0rem auto 0 auto;
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    z-index: 50;
+    color: white;
+    background-color: hsl(40 10% 10% / 0.4);;
+    
+}
+
+.fb-logo{
+    display: inline;
+    width: 4rem;
+    height: auto;
+    margin: 1rem 0 0 2rem;
+    z-index: 50;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 0.8rem;
+    
+    margin-top: 1.5rem;
+}
+
+li{
+    padding: 0.3rem 0.5rem;
+    text-align: center;
+}
+
+li:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+/* hex */
+
+#chameleon{
+    background-color: #00B200;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.chameleon-title{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6vw;
+    filter:drop-shadow(2px 2px 4px black);
+    margin: 15rem auto 5rem auto;
+}
+
+.styletile{
+    
+    width: 60vw;
+    height: auto;
+    box-shadow: 4px 4px 15px black;
+}
+
+/* GRID */ 
+
+#cham-grid{
+    display: grid;
+    width: 90vw;
+    height: 600vh;
+    margin: 5rem auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6(repeat, 1fr);
+    grid-template-areas:
+    "intro"
+    "early"
+    "expressions"
+    "rules"
+    "cry"
+    "childhood";
+    gap: none;
+    color: white;
+    
+    justify-content: center;
+}
+
+/* INTRO DIV */ 
+
+.intro{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto 2rem auto;
+    border: 4px dashed white;
+    grid-area: intro;
+    
+}
+
+.intro-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 50%;
+}
+
+.intro-svg-dashed{
+    width: 50%;
+    height: 90%;
+    margin: 3rem 5rem 2rem auto;
+    border: 3px dashed white;
+    border-radius: 50%;
+    background-color: hsl(20 10% 80% / 0.2);
+}
+
+.intro-svg-div{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed white;
+    border-radius: 70%;
+    text-align: center;
+    background-color: hsl(20 10% 10% / 0.2);
+    box-shadow: 4px 4px 5px green;
+    margin: 2rem 0rem 0 18rem;
+}
+    
+.intro-svg{
+    width: 50%;
+    height: auto;
+    display: block;
+   
+}
+
+/* early DIV */ 
+
+.early{
+    width: 95%;
+    height: auto;
+    margin: 2rem auto;
+    grid-area: early;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.early-dashed{
+    width: 40%;
+    height: 90%;
+    margin: 3rem auto 2rem 5rem;
+    border: 3px dashed white;
+    border-radius: 50%;
+    background-color: hsl(20 10% 80% / 0.2);
+}
+
+.early-svg-div{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed white;
+    border-radius: 50%;
+    text-align: center;
+    background-color: hsl(20 10% 10% / 0.2);
+    box-shadow: 4px 4px 5px green;
+    margin: 2rem 0 0 4rem;
+}
+
+.early-svg{
+    width: 90%;
+    height: auto;
+    display: block; 
+}
+
+.early-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 50%;
+    display: block;
+}
+
+/* EXPRESSIONS DIV */ 
+
+.expressions{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto 2rem auto;
+    border: 4px dashed white;
+    grid-area: expressions;
+    
+}
+
+.expressions-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 40%;
+    margin-left: 2rem;
+}
+
+.expressions-svg-dashed{
+    width: 50%;
+    height: 90%;
+    margin: 3rem 5rem 2rem auto;
+    border: 3px dashed white;
+    border-radius: 50%;
+    background-color: hsl(20 10% 80% / 0.2);
+}
+
+.expressions-svg-div{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed white;
+    border-radius: 70%;
+    text-align: center;
+    background-color: hsl(20 10% 10% / 0.2);
+    box-shadow: 4px 4px 5px green;
+    margin: 12rem 0rem 0 20rem;
+}
+    
+.expressions-svg{
+    width: 50%;
+    height: auto;
+    display: block;  
+}
+
+/* RULES DIV */ 
+
+.rules{
+    width: 95%;
+    height: auto;
+    margin: 2rem auto;
+    grid-area: rules;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rules-dashed{
+    width: 50%;
+    height: 90%;
+    margin: 3rem auto 2rem 5rem;
+    border: 3px dashed white;
+    border-radius: 50%;
+    background-color: hsl(20 10% 80% / 0.2);
+}
+
+.rules-svg-div{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed white;
+    border-radius: 70%;
+    text-align: center;
+    background-color: hsl(20 10% 10% / 0.2);
+    box-shadow: 4px 4px 5px green;
+    margin: 12rem 0 0 8rem;
+}
+
+.rules-svg{
+    width: 70%;
+    height: auto;
+    display: block; 
+    
+}
+
+.rules-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 35%;
+    display: block;
+    margin-right: 2rem;
+}
+
+
+/* cry DIV */ 
+
+.cry{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto 2rem auto;
+    border: 4px dashed white;
+    grid-area: cry;
+    
+}
+
+.cry-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 40%;
+    margin-left: 2rem;
+}
+
+.cry-dashed{
+    width: 50%;
+    height: 90%;
+    margin: 3rem 5rem 2rem auto;
+    border: 3px dashed white;
+    border-radius: 50%;
+    background-color: hsl(20 10% 80% / 0.2);
+}
+
+.cry-svg-div{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed white;
+    border-radius: 70%;
+    text-align: center;
+    background-color: hsl(20 10% 10% / 0.2);
+    box-shadow: 4px 4px 5px green;
+    margin: 12rem 0rem 0 20rem;
+}
+    
+.cry-svg{
+    width: 50%;
+    height: auto;
+    display: block;  
+}
+
+/* childhood DIV */ 
+
+.childhood{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto 2rem auto;
+    border: 4px dashed white;
+    grid-area: childhood;
+    
+}
+
+.childhood-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 40%;
+    margin-left: 2rem;
+}
+
+.childhood-dashed{
+    width: 50%;
+    height: 90%;
+    margin: 3rem 5rem 2rem auto;
+    border: 3px dashed white;
+    border-radius: 50%;
+    background-color: hsl(20 10% 80% / 0.2);
+}
+
+.childhood-svg-div{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed white;
+    border-radius: 70%;
+    text-align: center;
+    background-color: hsl(20 10% 10% / 0.2);
+    box-shadow: 4px 4px 5px green;
+    margin: 2rem 0 0 5rem;
+    background: url('img/cham-moodboard.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+.childhood-svg{
+    width: 50%;
+    height: auto;
+    display: block;  
+}
+
+
+/* FINAL PRODUCT */
+
+.final-product{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+
+/* BUTTON */
+
+.chameleon-btn{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+    background-color:#141E27;
+    transition: all;
+    margin: 5rem auto 4rem auto;
+    padding: 0.5rem 1rem;
+}
+
+.chameleon-btn:hover{
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    box-shadow: 2px 4px 4px;
+    border-radius: 5px;
+    color:#141E27;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+/* MEDIA QUERY 1200PX */ 
+
+@media only screen and (max-width: 1200px){
+
+/* GRID */ 
+
+#cham-grid{
+    display: grid;
+    width: 90vw;
+    height: 600vh;
+    margin: 5rem auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6(repeat, 1fr);
+    grid-template-areas:
+    "intro"
+    "early"
+    "expressions"
+    "rules"
+    "cry"
+    "childhood";
+    gap: none;
+    color: white;
+    
+    justify-content: center;
+}
+
+/* INTRO DIV */ 
+
+.intro{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto 2rem auto;
+    border: 4px dashed white;
+    grid-area: intro;
+    
+}
+
+.intro-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    width: 30%;
+    margin-left: 2rem;
+}
+
+.intro-svg-dashed{
+    width: 50%;
+    height: 90%;
+    margin: 3rem 5rem 2rem auto;
+    border: 3px dashed white;
+    border-radius: 50%;
+    background-color: hsl(20 10% 80% / 0.2);
+}
+
+.intro-svg-div{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed white;
+    border-radius: 70%;
+    text-align: center;
+    background-color: hsl(20 10% 10% / 0.2);
+    box-shadow: 4px 4px 5px green;
+    margin: 2rem 0rem 0 10rem;
+}
+    
+.intro-svg{
+    width: 50%;
+    height: auto;
+    display: block;
+   
+}
+
+/* early DIV */ 
+
+.early{
+    width: 95%;
+    height: auto;
+    margin: 2rem auto;
+    grid-area: early;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.early-dashed{
+    width: 40%;
+    height: 90%;
+    margin: 3rem auto 2rem 5rem;
+    border: 3px dashed white;
+    border-radius: 50%;
+    background-color: hsl(20 10% 80% / 0.2);
+}
+
+.early-svg-div{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed white;
+    border-radius: 50%;
+    text-align: center;
+    background-color: hsl(20 10% 10% / 0.2);
+    box-shadow: 4px 4px 5px green;
+    margin: 2rem 0 0 4rem;
+}
+
+.early-svg{
+    width: 90%;
+    height: auto;
+    display: block; 
+}
+
+.early-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    width: 50%;
+    display: block;
+}
+
+/* EXPRESSIONS DIV */ 
+
+.expressions{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto 2rem auto;
+    border: 4px dashed white;
+    grid-area: expressions;
+    
+}
+
+.expressions-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    width: 35%;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.expressions-svg-dashed{
+    width: 50%;
+    height: 90%;
+    margin: 3rem 5rem 2rem auto;
+    border: 3px dashed white;
+    border-radius: 50%;
+    background-color: hsl(20 10% 80% / 0.2);
+}
+
+.expressions-svg-div{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed white;
+    border-radius: 70%;
+    text-align: center;
+    background-color: hsl(20 10% 10% / 0.2);
+    box-shadow: 4px 4px 5px green;
+    margin: 12rem 0rem 0 10rem;
+}
+    
+.expressions-svg{
+    width: 50%;
+    height: auto;
+    display: block;  
+}
+
+/* RULES DIV */ 
+
+.rules{
+    width: 95%;
+    height: auto;
+    margin: 2rem auto;
+    grid-area: rules;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rules-dashed{
+    width: 50%;
+    height: 90%;
+    margin: 3rem auto 2rem 5rem;
+    border: 3px dashed white;
+    border-radius: 50%;
+    background-color: hsl(20 10% 80% / 0.2);
+}
+
+.rules-svg-div{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed white;
+    border-radius: 70%;
+    text-align: center;
+    background-color: hsl(20 10% 10% / 0.2);
+    box-shadow: 4px 4px 5px green;
+    margin: 12rem 0 0 8rem;
+}
+
+.rules-svg{
+    width: 70%;
+    height: auto;
+    display: block; 
+    
+}
+
+.rules-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    width: 35%;
+    display: block;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+
+/* cry DIV */ 
+
+.cry{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto 2rem auto;
+    border: 4px dashed white;
+    grid-area: cry;
+    
+}
+
+.cry-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    width: 35%;
+    margin-left: 2rem;
+}
+
+.cry-dashed{
+    width: 50%;
+    height: 90%;
+    margin: 3rem 5rem 2rem auto;
+    border: 3px dashed white;
+    border-radius: 50%;
+    background-color: hsl(20 10% 80% / 0.2);
+}
+
+.cry-svg-div{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed white;
+    border-radius: 70%;
+    text-align: center;
+    background-color: hsl(20 10% 10% / 0.2);
+    box-shadow: 4px 4px 5px green;
+    margin: 12rem 0rem 0 10rem;
+}
+    
+.cry-svg{
+    width: 50%;
+    height: auto;
+    display: block;  
+}
+
+/* childhood DIV */ 
+
+.childhood{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto 2rem auto;
+    border: 4px dashed white;
+    grid-area: childhood;
+    
+}
+
+.childhood-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    width: 40%;
+    margin-left: 2rem;
+}
+
+.childhood-dashed{
+    width: 50%;
+    height: 90%;
+    margin: 3rem 5rem 2rem auto;
+    border: 3px dashed white;
+    border-radius: 50%;
+    background-color: hsl(20 10% 80% / 0.2);
+}
+
+.childhood-svg-div{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed white;
+    border-radius: 70%;
+    text-align: center;
+    background-color: hsl(20 10% 10% / 0.2);
+    box-shadow: 4px 4px 5px green;
+    margin: 2rem 0 0 5rem;
+    background: url('img/cham-moodboard.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+.childhood-svg{
+    width: 50%;
+    height: auto;
+    display: block;  
+}
+
+}
+
+
+
+/* MEDIA QUERY 700PX */ 
+
+@media only screen and (max-width: 700px){
+
+    /* GRID */ 
+    
+    #cham-grid{
+        display: grid;
+        width: 90vw;
+        height: 600vh;
+        margin: 5rem auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: 6(repeat, 1fr);
+        grid-template-areas:
+        "intro"
+        "early"
+        "expressions"
+        "rules"
+        "cry"
+        "childhood";
+        gap: none;
+        color: white;
+        
+        justify-content: center;
+    }
+    
+    /* INTRO DIV */ 
+    
+    .intro{
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 auto 2rem auto;
+        border: 4px dashed white;
+        grid-area: intro;
+        
+    }
+    
+    .intro-p{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 30%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+    .intro-svg-dashed{
+        width: 50%;
+        height: 90%;
+        margin: 3rem 5rem 2rem auto;
+        border: 3px dashed white;
+        border-radius: 50%;
+        background-color: hsl(20 10% 80% / 0.2);
+    }
+    
+    .intro-svg-div{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 50%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px dashed white;
+        border-radius: 70%;
+        text-align: center;
+        background-color: hsl(20 10% 10% / 0.2);
+        box-shadow: 4px 4px 5px green;
+        margin: 2rem 0rem 0 7rem;
+    }
+        
+    .intro-svg{
+        width: 50%;
+        height: auto;
+        display: block;
+       
+    }
+    
+    /* early DIV */ 
+    
+    .early{
+        width: 95%;
+        height: auto;
+        margin: 2rem auto;
+        grid-area: early;
+        border: 2px solid white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .early-dashed{
+        width: 40%;
+        height: 90%;
+        margin: 3rem auto 2rem 5rem;
+        border: 3px dashed white;
+        border-radius: 50%;
+        background-color: hsl(20 10% 80% / 0.2);
+    }
+    
+    .early-svg-div{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 60%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px dashed white;
+        border-radius: 50%;
+        text-align: center;
+        background-color: hsl(20 10% 10% / 0.2);
+        box-shadow: 4px 4px 5px green;
+        margin: 2rem 0 0 4rem;
+    }
+    
+    .early-svg{
+        width: 90%;
+        height: auto;
+        display: block; 
+    }
+    
+    .early-p{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 50%;
+        display: block;
+    }
+    
+    /* EXPRESSIONS DIV */ 
+    
+    .expressions{
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 auto 2rem auto;
+        border: 4px dashed white;
+        grid-area: expressions;
+        
+    }
+    
+    .expressions-p{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 35%;
+        margin-left: 2rem;
+    }
+    
+    .expressions-svg-dashed{
+        width: 50%;
+        height: 90%;
+        margin: 3rem 5rem 2rem auto;
+        border: 3px dashed white;
+        border-radius: 50%;
+        background-color: hsl(20 10% 80% / 0.2);
+    }
+    
+    .expressions-svg-div{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 50%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px dashed white;
+        border-radius: 70%;
+        text-align: center;
+        background-color: hsl(20 10% 10% / 0.2);
+        box-shadow: 4px 4px 5px green;
+        margin: 12rem 0rem 0 5rem;
+    }
+        
+    .expressions-svg{
+        width: 50%;
+        height: auto;
+        display: block;  
+    }
+    
+    /* RULES DIV */ 
+    
+    .rules{
+        width: 95%;
+        height: auto;
+        margin: 2rem auto;
+        grid-area: rules;
+        border: 2px solid white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .rules-dashed{
+        width: 50%;
+        height: 90%;
+        margin: 3rem auto 2rem 5rem;
+        border: 3px dashed white;
+        border-radius: 50%;
+        background-color: hsl(20 10% 80% / 0.2);
+    }
+    
+    .rules-svg-div{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 50%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px dashed white;
+        border-radius: 70%;
+        text-align: center;
+        background-color: hsl(20 10% 10% / 0.2);
+        box-shadow: 4px 4px 5px green;
+        margin: 12rem 0 0 3rem;
+    }
+    
+    .rules-svg{
+        width: 70%;
+        height: auto;
+        display: block; 
+        
+    }
+    
+    .rules-p{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 35%;
+        display: block;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    
+    
+    /* cry DIV */ 
+    
+    .cry{
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 auto 2rem auto;
+        border: 4px dashed white;
+        grid-area: cry;
+        
+    }
+    
+    .cry-p{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 35%;
+        margin-left: 2rem;
+    }
+    
+    .cry-dashed{
+        width: 50%;
+        height: 90%;
+        margin: 3rem 5rem 2rem auto;
+        border: 3px dashed white;
+        border-radius: 50%;
+        background-color: hsl(20 10% 80% / 0.2);
+    }
+    
+    .cry-svg-div{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 50%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px dashed white;
+        border-radius: 70%;
+        text-align: center;
+        background-color: hsl(20 10% 10% / 0.2);
+        box-shadow: 4px 4px 5px green;
+        margin: 12rem 0rem 0 4rem;
+    }
+        
+    .cry-svg{
+        width: 50%;
+        height: auto;
+        display: block;  
+    }
+    
+    /* childhood DIV */ 
+    
+    .childhood{
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 auto 2rem auto;
+        border: 4px dashed white;
+        grid-area: childhood;
+        
+    }
+    
+    .childhood-p{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 40%;
+        margin-right: 2rem;
+    }
+    
+    .childhood-dashed{
+        width: 50%;
+        height: 90%;
+        margin: 3rem 5rem 2rem auto;
+        border: 3px dashed white;
+        border-radius: 50%;
+        background-color: hsl(20 10% 80% / 0.2);
+    }
+    
+    .childhood-svg-div{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 50%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px dashed white;
+        border-radius: 70%;
+        text-align: center;
+        background-color: hsl(20 10% 10% / 0.2);
+        box-shadow: 4px 4px 5px green;
+        margin: 2rem 0 0 5rem;
+        background: url('img/cham-moodboard.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+        
+    .childhood-svg{
+        width: 50%;
+        height: auto;
+        display: block;  
+    }
+    
+    }
+
+
+    /* MEDIA QUERY 500PX */ 
+
+@media only screen and (max-width: 500px){
+
+    /* GRID */ 
+    
+    #cham-grid{
+        display: grid;
+        width: 90vw;
+        height: 600vh;
+        margin: 5rem auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: 6(repeat, 1fr);
+        grid-template-areas:
+        "intro"
+        "early"
+        "expressions"
+        "rules"
+        "cry"
+        "childhood";
+        gap: none;
+        color: white;
+        
+        justify-content: center;
+    }
+    
+    /* INTRO DIV */ 
+    
+    .intro{
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 auto 2rem auto;
+        border: 4px dashed white;
+        grid-area: intro;
+        
+    }
+    
+    .intro-p{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 80%;
+        margin: 3rem 2rem 1rem 2rem;
+    }
+    
+    .intro-svg-dashed{
+        width: 80%;
+        height: 90%;
+        margin: 3rem auto 2rem auto;
+        border: 3px dashed white;
+        border-radius: 50%;
+        background-color: hsl(20 10% 80% / 0.2);
+    }
+    
+    .intro-svg-div{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 50%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px dashed white;
+        border-radius: 70%;
+        text-align: center;
+        background-color: hsl(20 10% 10% / 0.2);
+        box-shadow: 4px 4px 5px green;
+        margin: 2rem 0rem 0 3rem;
+    }
+        
+    .intro-svg{
+        width: 80%;
+        height: auto;
+        display: block;
+       
+    }
+    
+    /* early DIV */ 
+    
+    .early{
+        width: 95%;
+        height: auto;
+        margin: 2rem auto;
+        grid-area: early;
+        border: 2px solid white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .early-dashed{
+        width: 80%;
+        height: 90%;
+        margin: 3rem auto 2rem auto;
+        border: 3px dashed white;
+        border-radius: 50%;
+        background-color: hsl(20 10% 80% / 0.2);
+    }
+    
+    .early-svg-div{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 60%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px dashed white;
+        border-radius: 50%;
+        text-align: center;
+        background-color: hsl(20 10% 10% / 0.2);
+        box-shadow: 4px 4px 5px green;
+        margin: 2rem 0 0 4rem;
+    }
+    
+    .early-svg{
+        width: 90%;
+        height: auto;
+        display: block; 
+    }
+    
+    .early-p{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 80%;
+        display: block;
+    }
+    
+    /* EXPRESSIONS DIV */ 
+    
+    .expressions{
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 auto 2rem auto;
+        border: 4px dashed white;
+        grid-area: expressions;
+        
+    }
+    
+    .expressions-p{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 80%;
+        
+    }
+    
+    .expressions-svg-dashed{
+        width: 80%;
+        height: 60%;
+        margin: 1rem auto 2rem auto;
+        border: 3px dashed white;
+        border-radius: 50%;
+        background-color: hsl(20 10% 80% / 0.2);
+    }
+    
+    .expressions-svg-div{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 50%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px dashed white;
+        border-radius: 70%;
+        text-align: center;
+        background-color: hsl(20 10% 10% / 0.2);
+        box-shadow: 4px 4px 5px green;
+        margin: 7rem 0rem 0 5rem;
+    }
+        
+    .expressions-svg{
+        width: 50%;
+        height: auto;
+        display: block;  
+    }
+    
+    /* RULES DIV */ 
+    
+    .rules{
+        width: 95%;
+        height: auto;
+        margin: 2rem auto;
+        grid-area: rules;
+        border: 2px solid white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .rules-dashed{
+        width: 80%;
+        height: 60%;
+        margin: 3rem auto 0rem auto;
+        border: 3px dashed white;
+        border-radius: 50%;
+        background-color: hsl(20 10% 80% / 0.2);
+    }
+    
+    .rules-svg-div{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 50%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px dashed white;
+        border-radius: 70%;
+        text-align: center;
+        background-color: hsl(20 10% 10% / 0.2);
+        box-shadow: 4px 4px 5px green;
+        margin: 8rem 0 0 3rem;
+    }
+    
+    .rules-svg{
+        width: 80%;
+        height: auto;
+        display: block; 
+        
+    }
+    
+    .rules-p{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 80%;
+        display: block;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    
+    
+    /* cry DIV */ 
+    
+    .cry{
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 auto 2rem auto;
+        border: 4px dashed white;
+        grid-area: cry;
+        
+    }
+    
+    .cry-p{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 80%;
+        margin: 3rem auto 0 auto;
+    }
+    
+    .cry-dashed{
+        width: 80%;
+        height: 60%;
+        margin: 3rem auto 2rem auto;
+        border: 3px dashed white;
+        border-radius: 50%;
+        background-color: hsl(20 10% 80% / 0.2);
+    }
+    
+    .cry-svg-div{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 50%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px dashed white;
+        border-radius: 70%;
+        text-align: center;
+        background-color: hsl(20 10% 10% / 0.2);
+        box-shadow: 4px 4px 5px green;
+        margin: 7rem 0rem 0 4rem;
+    }
+        
+    .cry-svg{
+        width: 50%;
+        height: auto;
+        display: block;  
+    }
+    
+    /* childhood DIV */ 
+    
+    .childhood{
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 auto 2rem auto;
+        border: 4px dashed white;
+        grid-area: childhood;
+        
+    }
+    
+    .childhood-p{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 80%;
+        margin-right: 2rem;
+    }
+    
+    .childhood-dashed{
+        width: 80%;
+        height: 60%;
+        margin: 3rem auto 2rem auto;
+        border: 3px dashed white;
+        border-radius: 50%;
+        background-color: hsl(20 10% 80% / 0.2);
+    }
+    
+    .childhood-svg-div{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        width: 50%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px dashed white;
+        border-radius: 70%;
+        text-align: center;
+        background-color: hsl(20 10% 10% / 0.2);
+        box-shadow: 4px 4px 5px green;
+        margin: 2rem 0 0 5rem;
+        background: url('img/cham-moodboard.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+        
+    .childhood-svg{
+        width: 50%;
+        height: auto;
+        display: block;  
+    }
+
+    .final-product{
+        font-size: 1rem;
+        margin: 2rem auto;
+    }
+    
+    }
