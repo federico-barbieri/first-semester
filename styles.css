@@ -316,7 +316,7 @@ li:hover{
     padding: 0.5rem 1rem;
 }
 
-.chess-btn:hover{
+.hex-btn:hover{
     transition-duration: 1s;
     transition-delay: 0.2s;
     box-shadow: 2px 4px 4px;

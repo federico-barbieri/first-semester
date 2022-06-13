@@ -1,0 +1,649 @@
+html{
+    font-size: 16px;
+}
+
+a{
+    color: inherit;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+#container{
+    width: 100%;
+    height: 100%; 
+}
+
+main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100vw;
+    height: auto;
+}
+
+/* HEADER */
+
+header{
+    position: absolute;
+    color: white;
+    width: 100vw;
+    z-index: 100;
+}
+
+.header-background{
+    width: 100vw;
+    background-color: #141E27;
+    opacity: 1;
+    height: 10vh;
+    transform: translateY(-10vh);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-between;
+    margin: 0rem auto 0 auto;
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    z-index: 50;
+    color: white;
+    background-color: hsl(40 10% 10% / 0.4);;
+    
+}
+
+.fb-logo{
+    display: inline;
+    width: 4rem;
+    height: auto;
+    margin: 1rem 0 0 2rem;
+    z-index: 50;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 0.8rem;
+    
+    margin-top: 1.5rem;
+}
+
+li{
+    padding: 0.3rem 0.5rem;
+    text-align: center;
+}
+
+li:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+/* hex */
+
+#hex{
+    background: rgb(247,134,246);
+    background: linear-gradient(325deg, rgba(247,134,246,1) 0%, rgba(226,247,60,1) 87%);
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor:crosshair;
+}
+
+.hex-title{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6vw;
+    filter:drop-shadow(2px 2px 4px white);
+    margin: 15rem auto 5rem auto;
+}
+
+/* LIFE IS A GRID */ 
+
+#all-is-a-grid{
+    display: grid;
+    width: 100vw;
+    height: 200vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "intro"
+    "wall"
+    "storyboard"
+    "solution";
+    
+    gap: none;
+}
+
+/* INTRO AND P */ 
+
+.intro-and-p{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    grid-area: intro;
+}
+
+.group-project{
+font-family: forma-djr-micro, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5rem;
+color: black;
+width: 30%;
+display: block;
+}
+
+.app-interface{
+    width: 35%;
+    height: auto;
+    display: block;
+    box-shadow: 4px 4px 15px;
+}
+
+/* WALL AND P */ 
+
+.wall-and-p{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    grid-area: wall;
+}
+
+.wall{
+font-family: forma-djr-micro, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5rem;
+color: black;
+width: 30%;
+display: block;
+}
+
+.post-it{
+    width: 35%;
+    height: auto;
+    display: block;
+    box-shadow: 4px 4px 15px;
+}
+
+/* STORYBOARD AND P */ 
+
+.storyboard-and-p{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    grid-area: storyboard;
+}
+
+.wardrobes{
+font-family: forma-djr-micro, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5rem;
+color: black;
+width: 30%;
+display: block;
+}
+
+.storyboard{
+    width: 35%;
+    height: auto;
+    display: block;
+    box-shadow: 4px 4px 15px;
+}
+
+/* SOLUTION AND P */ 
+
+.solution-and-p{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    grid-area: solution;
+}
+
+.solution{
+font-family: forma-djr-micro, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5rem;
+color: black;
+width: 30%;
+display: block;
+}
+
+.solution-svg{
+    width: 35%;
+    height: auto;
+    display: block;
+    box-shadow: 4px 4px 15px;
+}
+
+/* FINAL PRODUCT */
+
+.final-product{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: black;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+/* BUTTON */
+
+.hex-btn{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+    background-color:#141E27;
+    transition: all;
+    margin: 5rem auto 4rem auto;
+    padding: 0.5rem 1rem;
+}
+
+.hex-btn:hover{
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    box-shadow: 2px 4px 4px;
+    border-radius: 5px;
+    color:#141E27;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* MEDIA QUERY MAX 1000PX */
+
+@media only screen and (max-width: 1000px){
+    /* LIFE IS A GRID */ 
+
+#all-is-a-grid{
+    display: grid;
+    width: 100vw;
+    height: 300vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4(repeat, 1fr);
+    grid-template-areas:
+    "intro"
+    "wall"
+    "storyboard"
+    "solution";
+    gap: none;
+}
+
+/* INTRO AND P */ 
+
+.intro-and-p{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    grid-area: intro;
+    border-bottom: 2px solid white;
+}
+
+.group-project{
+font-family: forma-djr-micro, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5rem;
+color: black;
+width: 80%;
+display: block;
+}
+
+.app-interface{
+    width: 60%;
+    height: auto;
+    display: block;
+    box-shadow: 4px 4px 15px;
+}
+
+/* WALL AND P */ 
+
+.wall-and-p{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    grid-area: wall;
+    border-bottom: 2px solid white;
+}
+
+.wall{
+font-family: forma-djr-micro, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5rem;
+color: black;
+width: 80%;
+display: block;
+}
+
+.post-it{
+    width: 60%;
+    height: auto;
+    display: block;
+    box-shadow: 4px 4px 15px;
+}
+
+/* STORYBOARD AND P */ 
+
+.storyboard-and-p{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    grid-area: storyboard;
+    border-bottom: 2px solid white;
+}
+
+.wardrobes{
+font-family: forma-djr-micro, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5rem;
+color: black;
+width: 80%;
+display: block;
+}
+
+.storyboard{
+    width: 60%;
+    height: auto;
+    display: block;
+    box-shadow: 4px 4px 15px;
+}
+
+/* SOLUTION AND P */ 
+
+.solution-and-p{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    grid-area: solution;
+    border-bottom: 2px solid white;
+}
+
+.solution{
+font-family: forma-djr-micro, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5rem;
+color: black;
+width: 80%;
+display: block;
+}
+
+.solution-svg{
+    width: 60%;
+    height: auto;
+    display: block;
+    box-shadow: 4px 4px 15px;
+}
+
+/* FINAL PRODUCT */
+
+.final-product{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: black;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+/* BUTTON */
+
+.hex-btn{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+    background-color:#141E27;
+    transition: all;
+    margin: 5rem auto 4rem auto;
+    padding: 0.5rem 1rem;
+}
+
+.hex-btn:hover{
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    box-shadow: 2px 4px 4px;
+    border-radius: 5px;
+    color:#141E27;
+    background-color: white;
+    cursor: pointer;
+}
+}
+
+
+/* MEDIA QUERY MAX 700PX */
+
+@media only screen and (max-width: 700px){
+    /* LIFE IS A GRID */ 
+
+#all-is-a-grid{
+    display: grid;
+    width: 100vw;
+    height: 300vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4(repeat, 1fr);
+    grid-template-areas:
+    "intro"
+    "wall"
+    "storyboard"
+    "solution";
+    gap: none;
+}
+
+/* INTRO AND P */ 
+
+.intro-and-p{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    grid-area: intro;
+    border-bottom: 2px solid white;
+}
+
+.group-project{
+font-family: forma-djr-micro, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5rem;
+color: black;
+width: 90%;
+display: block;
+}
+
+.app-interface{
+    width: 80%;
+    height: auto;
+    display: block;
+    box-shadow: 4px 4px 15px;
+}
+
+/* WALL AND P */ 
+
+.wall-and-p{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    grid-area: wall;
+    border-bottom: 2px solid white;
+}
+
+.wall{
+font-family: forma-djr-micro, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5rem;
+color: black;
+width: 90%;
+display: block;
+}
+
+.post-it{
+    width: 80%;
+    height: auto;
+    display: block;
+    box-shadow: 4px 4px 15px;
+}
+
+/* STORYBOARD AND P */ 
+
+.storyboard-and-p{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    grid-area: storyboard;
+    border-bottom: 2px solid white;
+}
+
+.wardrobes{
+font-family: forma-djr-micro, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5rem;
+color: black;
+width: 90%;
+display: block;
+}
+
+.storyboard{
+    width: 80%;
+    height: auto;
+    display: block;
+    box-shadow: 4px 4px 15px;
+}
+
+/* SOLUTION AND P */ 
+
+.solution-and-p{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    grid-area: solution;
+    border-bottom: 2px solid white;
+}
+
+.solution{
+font-family: forma-djr-micro, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5rem;
+color: black;
+width: 90%;
+display: block;
+}
+
+.solution-svg{
+    width: 80%;
+    height: auto;
+    display: block;
+    box-shadow: 4px 4px 15px;
+}
+
+/* FINAL PRODUCT */
+
+.final-product{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: black;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+/* BUTTON */
+
+.hex-btn{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+    background-color:#141E27;
+    transition: all;
+    margin: 5rem auto 4rem auto;
+    padding: 0.5rem 1rem;
+}
+
+.hex-btn:hover{
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    box-shadow: 2px 4px 4px;
+    border-radius: 5px;
+    color:#141E27;
+    background-color: white;
+    cursor: pointer;
+}
+}
