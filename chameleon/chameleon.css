@@ -1324,6 +1324,14 @@ li:hover{
 
 @media only screen and (max-width: 500px){
 
+
+    .styletile{
+    
+        width: 90vw;
+        height: auto;
+        box-shadow: 4px 4px 15px black;
+    }
+
     /* GRID */ 
     
     #cham-grid{
@@ -1375,7 +1383,7 @@ li:hover{
         width: 80%;
         height: 90%;
         margin: 3rem auto 2rem auto;
-        border: 3px dashed white;
+        border: 3px solid white;
         border-radius: 50%;
         background-color: hsl(20 10% 80% / 0.2);
     }
@@ -1391,7 +1399,7 @@ li:hover{
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 2px dashed white;
+        border: 1px dashed white;
         border-radius: 70%;
         text-align: center;
         background-color: hsl(20 10% 10% / 0.2);
@@ -1424,7 +1432,7 @@ li:hover{
         width: 80%;
         height: 90%;
         margin: 3rem auto 2rem auto;
-        border: 3px dashed white;
+        border: 3px solid white;
         border-radius: 50%;
         background-color: hsl(20 10% 80% / 0.2);
     }
@@ -1493,7 +1501,7 @@ li:hover{
         width: 80%;
         height: 60%;
         margin: 1rem auto 2rem auto;
-        border: 3px dashed white;
+        border: 3px solid white;
         border-radius: 50%;
         background-color: hsl(20 10% 80% / 0.2);
     }
@@ -1541,7 +1549,7 @@ li:hover{
         width: 80%;
         height: 60%;
         margin: 3rem auto 0rem auto;
-        border: 3px dashed white;
+        border: 3px solid white;
         border-radius: 50%;
         background-color: hsl(20 10% 80% / 0.2);
     }
@@ -1614,7 +1622,7 @@ li:hover{
         width: 80%;
         height: 60%;
         margin: 3rem auto 2rem auto;
-        border: 3px dashed white;
+        border: 3px solid white;
         border-radius: 50%;
         background-color: hsl(20 10% 80% / 0.2);
     }
@@ -1673,7 +1681,7 @@ li:hover{
         width: 80%;
         height: 60%;
         margin: 3rem auto 2rem auto;
-        border: 3px dashed white;
+        border: 3px solid white;
         border-radius: 50%;
         background-color: hsl(20 10% 80% / 0.2);
     }
