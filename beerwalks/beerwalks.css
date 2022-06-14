@@ -1,0 +1,777 @@
+html{
+    font-size: 16px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+#container{
+    width: 100%;
+    height: 100%; 
+}
+
+main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100vw;
+    height: auto;
+}
+
+/* HEADER */
+
+header{
+    position: absolute;
+    color: white;
+    width: 100vw;
+    z-index: 100;
+}
+
+.header-background{
+    width: 100vw;
+    background-color: #141E27;
+    opacity: 1;
+    height: 10vh;
+    transform: translateY(-10vh);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-between;
+    margin: 0rem auto 0 auto;
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    z-index: 50;
+    color: white;
+    background-color: hsl(40 10% 10% / 0.4);;
+    
+}
+
+.fb-logo{
+    display: inline;
+    width: 4rem;
+    height: auto;
+    margin: 1rem 0 0 2rem;
+    z-index: 50;
+}
+
+.nav-ul{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 0.8rem;
+    
+    margin-top: 1.5rem;
+}
+
+.nav-li{
+    padding: 0.3rem 0.5rem;
+    text-align: center;
+}
+
+.nav-li:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+
+/* beerwalks */
+
+#beerwalks{
+    background-color: #1F2125;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.beer-title{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6vw;
+    filter:drop-shadow(2px 2px 4px black);
+    margin: 15rem auto 5rem auto;
+}
+
+/* INTRO P */
+
+.intro-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    width: 50%;
+    line-height: 1.4;
+}
+
+/* GREEDY GRID */ 
+
+#greedy{
+    display: grid;
+    width: 80vw;
+    height: 350vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 7(repeat, 1fr);
+    grid-template-areas:
+    "teamcanvas"
+    "persona"
+    "story"
+    "jobs"
+    "filming"
+    "coding"
+    "learnings";
+    gap: none;
+}
+
+
+/* FIRST SECTION */
+
+.teamcanvas{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem auto;
+    grid-area: teamcanvas;
+    border-top: 2px solid white;
+    padding-top: 2rem;
+}
+
+.team-canvas-img{
+    width: 40%;
+    height: auto;
+    display: block;
+}
+
+.team-canvas-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 50%;
+
+}
+
+
+/* SECOND SECTION */
+
+.persona{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4rem auto 2rem auto;
+    grid-area: persona;
+}
+
+.persona-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 50%;
+}
+
+.persona-ul{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+
+/* THIRD SECTION */
+
+.story{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4rem auto 2rem auto;
+    grid-area: story;
+}
+
+.story-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 50%;
+}
+
+.story-img{
+    width: 40%;
+    height: auto;
+    display: block;
+}
+
+
+/* FOURTH SECTION */
+
+.jobs{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4rem auto 2rem auto;
+    grid-area: jobs;
+}
+
+.jobs-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 50%;
+}
+
+.jobs-img{
+    width: 20%;
+    height: auto;
+    display: block;
+}
+
+/* FIFTH SECTION */
+
+.filming{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4rem auto 2rem auto;
+    grid-area: filming;
+}
+
+.filming-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 40%;
+}
+
+.filming-img{
+    width: 50%;
+    height: auto;
+    display: block;
+}
+
+
+/* SIXTH SECTION */
+
+.coding{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4rem auto 2rem auto;
+    grid-area: coding;
+}
+
+.coding-p-one{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+.coding-examples{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.code1{
+    width: 50%;
+    height: auto;
+    display: block;
+}
+
+.code2{
+    width: 36%;
+    height: auto;
+    display: block;
+}
+
+
+/* SEVENTH SECTION */
+
+.learnings{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4rem auto 2rem auto;
+    grid-area: learnings;
+}
+
+.learnings-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+.learnings-ul{
+    width: 100%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+
+
+
+
+/* FINAL PRODUCT */
+
+.final-product{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 80%;
+    margin-top: 5rem;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+
+
+/* BUTTON */
+
+.beer-btn{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+    background-color:#141E27;
+    transition: all;
+    margin: 5rem auto 4rem auto;
+    padding: 0.5rem 1rem;
+}
+
+.beer-btn:hover{
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    box-shadow: 2px 4px 4px;
+    border-radius: 5px;
+    color:#141E27;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+/* MEDIA QUERY MAX 800PX */
+
+
+@media only screen and (max-width: 800px){
+
+
+/* beerwalks */
+
+#beerwalks{
+    background-color: #1F2125;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.beer-title{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6vw;
+    filter:drop-shadow(2px 2px 4px black);
+    margin: 15rem auto 5rem auto;
+}
+
+/* INTRO P */
+
+.intro-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    width: 50%;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+}
+
+/* GREEDY GRID */ 
+
+#greedy{
+    display: grid;
+    width: 80vw;
+    height: 350vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 7(repeat, 1fr);
+    grid-template-areas:
+    "teamcanvas"
+    "persona"
+    "story"
+    "jobs"
+    "filming"
+    "coding"
+    "learnings";
+    gap: none;
+    
+}
+
+
+/* FIRST SECTION */
+
+.teamcanvas{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem auto;
+    grid-area: teamcanvas;
+    border-top: 2px solid white;
+    padding-top: 2rem;
+}
+
+.team-canvas-img{
+    width: 80%;
+    height: auto;
+    display: block;
+}
+
+.team-canvas-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 70%;
+
+}
+
+
+/* SECOND SECTION */
+
+.persona{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4rem auto 2rem auto;
+    grid-area: persona;
+    border-top: 2px solid white;
+    padding-top: 2rem;
+}
+
+.persona-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 80%;
+}
+
+.persona-ul{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+
+/* THIRD SECTION */
+
+.story{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4rem auto 2rem auto;
+    grid-area: story;
+    border-top: 2px solid white;
+    padding-top: 2rem;
+}
+
+.story-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 80%;
+}
+
+.story-img{
+    width: 80%;
+    height: auto;
+    display: block;
+}
+
+
+/* FOURTH SECTION */
+
+.jobs{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4rem auto 2rem auto;
+    grid-area: jobs;
+    border-top: 2px solid white;
+    padding-top: 2rem;
+}
+
+.jobs-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 80%;
+}
+
+.jobs-img{
+    width: 60%;
+    height: auto;
+    display: block;
+}
+
+/* FIFTH SECTION */
+
+.filming{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4rem auto 2rem auto;
+    grid-area: filming;
+    border-top: 2px solid white;
+    padding-top: 2rem;
+}
+
+.filming-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 80%;
+}
+
+.filming-img{
+    width: 70%;
+    height: auto;
+    display: block;
+}
+
+
+/* SIXTH SECTION */
+
+.coding{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4rem auto 2rem auto;
+    grid-area: coding;
+    border-top: 2px solid white;
+    padding-top: 2rem;
+}
+
+.coding-p-one{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+.coding-examples{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.code1{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.code2{
+    width: 80%;
+    height: auto;
+    display: block;
+}
+
+
+/* SEVENTH SECTION */
+
+.learnings{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4rem auto 2rem auto;
+    grid-area: learnings;
+    border-top: 2px solid white;
+    padding-top: 2rem;
+}
+
+.learnings-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+.learnings-ul{
+    width: 90%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+
+/* FINAL PRODUCT */
+
+.final-product{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 80%;
+    margin-top: 5rem;
+    border-top: 2px solid white;
+    padding-top: 5rem;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+
+
+/* BUTTON */
+
+.beer-btn{
+    font-family: ethnocentric, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+    background-color:#141E27;
+    transition: all;
+    margin: 5rem auto 4rem auto;
+    padding: 0.5rem 1rem;
+}
+
+.beer-btn:hover{
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    box-shadow: 2px 4px 4px;
+    border-radius: 5px;
+    color:#141E27;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+}
