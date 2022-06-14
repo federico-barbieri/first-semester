@@ -660,7 +660,7 @@ figure{
     .grid-section{
         display: grid;
         width: 90vw;
-        height: 120vh;
+        height: 122vh;
         grid-template-columns: 1fr;
         grid-template-rows: 6(repeat, 1fr);
         grid-template-areas:

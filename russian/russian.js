@@ -64,6 +64,14 @@ figure.addEventListener('mouseout', () => {
     figure.style.fontSize = "2rem";
 })
 
+// FIGURE GROUND MOBILE 
+
+figure.addEventListener('click', () => {
+    figure.style.fontSize = "1rem";
+    figure.style.lineHeight = "1.4";
+    figure.innerHTML = "The Law Of Figure Ground can be seen when you hover over images and they acquire a box shadow that contrasts with the white background."
+})
+
 // SIMILARITY
 
 let similarity = document.querySelector('.similarity');
@@ -78,6 +86,15 @@ similarity.addEventListener('mouseover', () => {
 similarity.addEventListener('mouseout', () => {
     similarity.innerHTML = "SIMILARITY";
     similarity.style.fontSize = "2rem";
+})
+
+// SIMILARITY MOBILE 
+
+similarity.addEventListener('click', () => {
+    similarity.style.fontSize = "1rem";
+    similarity.style.lineHeight = "1.4";
+    
+    similarity.innerHTML = "The Law Of Similarity can be seen in the 'h2' tags, since they share the same size, color and font family."
 })
 
 // CONTINUITY
@@ -96,6 +113,15 @@ continuity.addEventListener('mouseout', () => {
     continuity.style.fontSize = "2rem";
 })
 
+// CONTINUITY MOBILE 
+
+continuity.addEventListener('click', () => {
+    continuity.style.fontSize = "1rem";
+    continuity.style.lineHeight = "1.4";
+    
+    continuity.innerHTML = "The Law Of Continuity can be seen around the main title, where the design of the background forms a pattern."
+})
+
 
 // FOCAL
 
@@ -111,4 +137,13 @@ focal.addEventListener('mouseover', () => {
 focal.addEventListener('mouseout', () => {
     focal.innerHTML = "FOCAL POINT";
     focal.style.fontSize = "2rem";
+})
+
+// FOCAL MOBILE 
+
+focal.addEventListener('click', () => {
+    focal.style.fontSize = "1rem";
+    focal.style.lineHeight = "1.4";
+    
+    focal.innerHTML = "The Law Of Focal Point can be seen in the main title, as its red color contrasts with the background's black and white."
 })
