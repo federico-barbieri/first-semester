@@ -4,6 +4,7 @@ html{
 
 a{
     color: inherit;
+    text-decoration: none;
 }
 
 body{
@@ -16,6 +17,7 @@ body{
 #container{
     width: 100%;
     height: 100%; 
+    color: white;
 }
 
 section{
@@ -77,7 +79,7 @@ nav{
     z-index: 50;
 }
 
-ul{
+nav ul{
     display: flex;
     flex-direction: row;
     width: 80vw;
@@ -124,154 +126,220 @@ li:hover{
     margin: 10rem auto 5rem auto;
 }
 
+.intro-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    width: 80%;
+    margin-bottom: 4rem;
+    line-height: 1.4;
+}
+
+/* GRID */
+
+.grid-section{
+    display: grid;
+    width: 90vw;
+    height: 40vh;
+    grid-template-columns: 3(repeat, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "proximity fate figure"
+    "similarity continuity focal";
+    border: 2px solid white;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+/* PROXIMITY */
+
+.proximity{
+    grid-area: proximity;
+    width: 30vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.proximity:hover{
+    background-color: rgb(104, 5, 5);;
+}
+
+
+/* FATE */
+
+.fate{
+    grid-area: fate;
+    width: 30vw;
+    height: 20vh;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fate:hover{
+    background-color: rgb(104, 5, 5);;
+}
+
+/* FIGURE-GROUND */
+
+.figure-ground{
+    grid-area: figure;
+    width: 30vw;
+    height: 20vh;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.figure-ground:hover{
+    background-color: rgb(104, 5, 5);;
+}
+
+/* SIMILARITY */
+
+.similarity{
+    grid-area: similarity;
+    width: 30vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.similarity:hover{
+    background-color: rgb(104, 5, 5);;
+}
+
+/* CONTINUITY */
+
+.continuity{
+    grid-area: continuity;
+    width: 30vw;
+    height: 20vh;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.continuity:hover{
+    background-color: rgb(104, 5, 5);;
+}
+
+/* FOCAL POINT */
+
+.focal-point{
+    grid-area: focal;
+    width: 30vw;
+    height: 20vh;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.focal-point:hover{
+    background-color: rgb(104, 5, 5);;
+}
+
+article > span{
+    border: 1px dashed white;
+}
+
 /* IMAGES */
 
-.russian-img{
+
+.proximity2{
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    margin: 4rem auto 0rem auto;
+}
+
+.fate2{
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    margin: 4rem auto 0rem auto;
+}
+
+.figure2{
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    margin: 4rem auto 0rem auto;
+
+}
+
+.similarity2{
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    margin: 4rem auto 0rem auto;
+}
+
+.continuity2{
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    margin: 4rem auto 0rem auto;
+}
+
+.focal2{
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    margin: 4rem auto 0rem auto;
+}
+
+figure{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.font-palette{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     width: 60vw;
     height: auto;
-    align-items: center;
-    justify-content: space-around;
-    
-    margin: 0 auto;
-    
-    padding: 1rem 1rem;
-}
-
-.img1{
-    display: inline-block;
-    max-width: 10vw;
-    height: auto;
-    filter:drop-shadow(2px 2px 8px black);
-}
-
-
-/* PALETTE */ 
-
-.palette{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    font-family: ethnocentric, sans-serif;
+    border-top: 2px solid white;
+    margin: 5rem auto 3rem auto;
+    padding-top: 3rem;
+    font-family: forma-djr-micro, sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 1.5rem;
     color: white;
-    width: 90vw;
-    height: 40vh;
-}
-
-.colors{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    font-family: ethnocentric, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-    width: 90vw;
-    height: 45vh;
-}
-
-.red{
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
-    background-color: #c34040;
-    filter:drop-shadow(2px 2px 8px black);
-}
-
-.white{
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
-    background-color: #FFF0F0;
-    filter:drop-shadow(2px 2px 8px black);
-}
-
-.black{
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
-    background-color: #000000;
-    filter:drop-shadow(2px 2px 8px black);
-}
-
-/* FONTS */ 
-
-.fonts{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    font-family: ethnocentric, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-    width: 10vw;
-    height: 40vh;
-}
-
-.font-names{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    font-family: ethnocentric, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-    width: 90vw;
-    height: 15vh;
-    
-}
-
-.under{
-    text-decoration: underline;
 }
 
 
-/* PARAGRAPHS */
 
-.this-project{
-    font-family: ethnocentric, sans-serif;
-    font-weight: 200;
-    font-style: italic;
-    font-size: 1rem;
-    color: white;
-    
-    border: 1px solid white;
-    padding: 1rem 1.5rem;
-    margin: 2rem auto;
-    width: 80vw;
-}
-
-.fondest{
-    font-family: ethnocentric, sans-serif;
-    font-weight: 200;
-    font-style: italic;
-    font-size: 1rem;
-    color: white;
-    
-    border: 1px solid white;
-    padding: 1rem 1.5rem;
-    margin: 2rem auto;
-    width: 80vw;
-}
+/* FINAL PRODUCT */
 
 .final-product{
-    font-family: ethnocentric, sans-serif;
-    font-weight: 200;
-    font-style: italic;
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 1rem;
     color: white;
     
-    border: 1px solid white;
-    padding: 1rem 1.5rem;
-    margin: 2rem auto;
-    width: 80vw;
+    border-top: 1px solid white;
+    padding: 3rem 1.5rem 1rem 1.5rem;
+    margin: 5rem auto 2rem auto;
+    width: 30vw;
 }
 
 /* BUTTON */
@@ -296,4 +364,529 @@ li:hover{
     color:#141E27;
     background-color: white;
     cursor: pointer;
+}
+
+
+/* MEDIA QUERY 700PX */
+
+
+
+@media only screen and (max-width: 700px){
+
+
+    .russian-title{
+        font-family: ethnocentric, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 7vw;
+        filter:drop-shadow(2px 2px 4px black);
+        margin: 10rem auto 5rem auto;
+    }
+    
+    .intro-p{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: white;
+        width: 90%;
+        margin-bottom: 4rem;
+        line-height: 1.4;
+    }
+    
+    /* GRID */
+    
+    .grid-section{
+        display: grid;
+        width: 90vw;
+        height: 60vh;
+        grid-template-columns: 2(repeat, 1fr);
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+        "proximity fate"
+        "figure similarity"
+        "continuity focal";
+        border: 2px solid white;
+        justify-content: center;
+        align-content: center;
+        color: white;
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+    }
+    
+    /* PROXIMITY */
+    
+    .proximity{
+        grid-area: proximity;
+        width: 45vw;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .proximity:hover{
+        background-color: rgb(104, 5, 5);;
+    }
+    
+    
+    /* FATE */
+    
+    .fate{
+        grid-area: fate;
+        width: 45vw;
+        height: 20vh;
+            display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .fate:hover{
+        background-color: rgb(104, 5, 5);;
+    }
+    
+    /* FIGURE-GROUND */
+    
+    .figure-ground{
+        grid-area: figure;
+        width: 45vw;
+        height: 20vh;
+            display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .figure-ground:hover{
+        background-color: rgb(104, 5, 5);;
+    }
+    
+    /* SIMILARITY */
+    
+    .similarity{
+        grid-area: similarity;
+        width: 45vw;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .similarity:hover{
+        background-color: rgb(104, 5, 5);;
+    }
+    
+    /* CONTINUITY */
+    
+    .continuity{
+        grid-area: continuity;
+        width: 45vw;
+        height: 20vh;
+            display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .continuity:hover{
+        background-color: rgb(104, 5, 5);;
+    }
+    
+    /* FOCAL POINT */
+    
+    .focal-point{
+        grid-area: focal;
+        width: 45vw;
+        height: 20vh;
+            display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .focal-point:hover{
+        background-color: rgb(104, 5, 5);;
+    }
+    
+    article > span{
+        border: 1px dashed white;
+    }
+    
+    /* IMAGES */
+    
+    
+    .proximity2{
+        display: inline-block;
+        width: 50%;
+        height: auto;
+        margin: 4rem auto 0rem auto;
+    }
+    
+    .fate2{
+        display: inline-block;
+        width: 50%;
+        height: auto;
+        margin: 4rem auto 0rem auto;
+    }
+    
+    .figure2{
+        display: inline-block;
+        width: 50%;
+        height: auto;
+        margin: 4rem auto 0rem auto;
+    
+    }
+    
+    .similarity2{
+        display: inline-block;
+        width: 50%;
+        height: auto;
+        margin: 4rem auto 0rem auto;
+    }
+    
+    .continuity2{
+        display: inline-block;
+        width: 50%;
+        height: auto;
+        margin: 4rem auto 0rem auto;
+    }
+    
+    .focal2{
+        display: inline-block;
+        width: 50%;
+        height: auto;
+        margin: 4rem auto 0rem auto;
+    }
+    
+    figure{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: white;
+    }
+    
+    .font-palette{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 80vw;
+        height: auto;
+        border-top: 2px solid white;
+        margin: 5rem auto 3rem auto;
+        padding-top: 3rem;
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: white;
+    }
+    
+    
+    
+    /* FINAL PRODUCT */
+    
+    .final-product{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        
+        border-top: 1px solid white;
+        padding: 3rem 1.5rem 1rem 1.5rem;
+        margin: 5rem auto 2rem auto;
+        width: 60vw;
+    }
+    
+    /* BUTTON */
+    
+    .russian-btn{
+        font-family: ethnocentric, sans-serif;
+        font-weight: 200;
+        font-style: italic;
+        font-size: 1rem;
+        color: white;
+        background-color:#141E27;
+        transition: all;
+        margin: 2rem auto 4rem auto;
+        padding: 0.5rem 1rem;
+    }
+    
+    .russian-btn:hover{
+        transition-duration: 1s;
+        transition-delay: 0.2s;
+        box-shadow: 2px 4px 4px;
+        border-radius: 5px;
+        color:#141E27;
+        background-color: white;
+        cursor: pointer;
+    }
+
+
+}
+
+
+/* MEDIA QUERY 500PX */
+
+
+
+@media only screen and (max-width: 500px){
+
+
+    .russian-title{
+        font-family: ethnocentric, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 7vw;
+        filter:drop-shadow(2px 2px 4px black);
+        margin: 10rem auto 5rem auto;
+    }
+    
+    .intro-p{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: white;
+        width: 90%;
+        margin-bottom: 4rem;
+        line-height: 1.4;
+    }
+    
+    /* GRID */
+    
+    .grid-section{
+        display: grid;
+        width: 90vw;
+        height: 120vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 6(repeat, 1fr);
+        grid-template-areas:
+        "proximity"
+        "fate"
+        "figure"
+        "similarity"
+        "continuity"
+        "focal";
+        border: 2px solid white;
+        justify-content: center;
+        align-content: center;
+        color: white;
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+    }
+    
+    /* PROXIMITY */
+    
+    .proximity{
+        grid-area: proximity;
+        width: 90vw;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .proximity:hover{
+        background-color: rgb(104, 5, 5);;
+    }
+    
+    
+    /* FATE */
+    
+    .fate{
+        grid-area: fate;
+        width: 90vw;
+        height: 20vh;
+            display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .fate:hover{
+        background-color: rgb(104, 5, 5);;
+    }
+    
+    /* FIGURE-GROUND */
+    
+    .figure-ground{
+        grid-area: figure;
+        width: 90vw;
+        height: 20vh;
+            display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .figure-ground:hover{
+        background-color: rgb(104, 5, 5);;
+    }
+    
+    /* SIMILARITY */
+    
+    .similarity{
+        grid-area: similarity;
+        width: 90vw;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .similarity:hover{
+        background-color: rgb(104, 5, 5);;
+    }
+    
+    /* CONTINUITY */
+    
+    .continuity{
+        grid-area: continuity;
+        width: 90vw;
+        height: 20vh;
+            display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .continuity:hover{
+        background-color: rgb(104, 5, 5);;
+    }
+    
+    /* FOCAL POINT */
+    
+    .focal-point{
+        grid-area: focal;
+        width: 90vw;
+        height: 20vh;
+            display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .focal-point:hover{
+        background-color: rgb(104, 5, 5);;
+    }
+    
+    article > span{
+        border: 1px dashed white;
+    }
+    
+    /* IMAGES */
+    
+    
+    .proximity2{
+        display: inline-block;
+        width: 60%;
+        height: auto;
+        margin: 4rem auto 0rem auto;
+    }
+    
+    .fate2{
+        display: inline-block;
+        width: 60%;
+        height: auto;
+        margin: 4rem auto 0rem auto;
+    }
+    
+    .figure2{
+        display: inline-block;
+        width: 60%;
+        height: auto;
+        margin: 4rem auto 0rem auto;
+    
+    }
+    
+    .similarity2{
+        display: inline-block;
+        width: 60%;
+        height: auto;
+        margin: 4rem auto 0rem auto;
+    }
+    
+    .continuity2{
+        display: inline-block;
+        width: 60%;
+        height: auto;
+        margin: 4rem auto 0rem auto;
+    }
+    
+    .focal2{
+        display: inline-block;
+        width: 60%;
+        height: auto;
+        margin: 4rem auto 0rem auto;
+    }
+    
+    figure{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: white;
+    }
+    
+    .font-palette{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 80vw;
+        height: auto;
+        border-top: 2px solid white;
+        margin: 5rem auto 3rem auto;
+        padding-top: 3rem;
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: white;
+    }
+    
+    
+    
+    /* FINAL PRODUCT */
+    
+    .final-product{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: white;
+        
+        border-top: 1px solid white;
+        padding: 3rem 1.5rem 1rem 1.5rem;
+        margin: 5rem auto 2rem auto;
+        width: 60vw;
+    }
+    
+    /* BUTTON */
+    
+    .russian-btn{
+        font-family: ethnocentric, sans-serif;
+        font-weight: 200;
+        font-style: italic;
+        font-size: 1rem;
+        color: white;
+        background-color:#141E27;
+        transition: all;
+        margin: 2rem auto 4rem auto;
+        padding: 0.5rem 1rem;
+    }
+    
+    .russian-btn:hover{
+        transition-duration: 1s;
+        transition-delay: 0.2s;
+        box-shadow: 2px 4px 4px;
+        border-radius: 5px;
+        color:#141E27;
+        background-color: white;
+        cursor: pointer;
+    }
+
+
 }
