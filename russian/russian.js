@@ -29,6 +29,14 @@ proximity.addEventListener('mouseout', () => {
     proximity.style.fontSize = "2rem";
 })
 
+// PROXIMITY MOBILE
+
+proximity.addEventListener('onclick', () => {
+    proximity.style.fontSize = "1rem";
+    proximity.style.lineHeight = "1.4";
+    proximity.innerHTML = "The Law Of Proximity can be seen in the navigation bar where similar elements are together."
+})
+
 
 
 // FATE
@@ -44,6 +52,14 @@ fate.addEventListener('mouseover', () => {
 fate.addEventListener('mouseout', () => {
     fate.innerHTML = "COMMON FATE";
     fate.style.fontSize = "2rem";
+})
+
+// FATE MOBILE 
+
+fate.addEventListener('onclick', () => {
+    fate.style.fontSize = "1rem";
+    fate.style.lineHeight = "1.4";
+    fate.innerHTML = "The Law Of Common Fate can be seen in the navigation bar when you hover over the items and they all get an underline decoration."
 })
 
 
@@ -66,7 +82,7 @@ figure.addEventListener('mouseout', () => {
 
 // FIGURE GROUND MOBILE 
 
-figure.addEventListener('click', () => {
+figure.addEventListener('onclick', () => {
     figure.style.fontSize = "1rem";
     figure.style.lineHeight = "1.4";
     figure.innerHTML = "The Law Of Figure Ground can be seen when you hover over images and they acquire a box shadow that contrasts with the white background."
@@ -90,7 +106,7 @@ similarity.addEventListener('mouseout', () => {
 
 // SIMILARITY MOBILE 
 
-similarity.addEventListener('click', () => {
+similarity.addEventListener('onclick', () => {
     similarity.style.fontSize = "1rem";
     similarity.style.lineHeight = "1.4";
     
@@ -115,7 +131,7 @@ continuity.addEventListener('mouseout', () => {
 
 // CONTINUITY MOBILE 
 
-continuity.addEventListener('click', () => {
+continuity.addEventListener('onclick', () => {
     continuity.style.fontSize = "1rem";
     continuity.style.lineHeight = "1.4";
     
@@ -141,7 +157,7 @@ focal.addEventListener('mouseout', () => {
 
 // FOCAL MOBILE 
 
-focal.addEventListener('click', () => {
+focal.addEventListener('onclick', () => {
     focal.style.fontSize = "1rem";
     focal.style.lineHeight = "1.4";
     
