@@ -152,7 +152,7 @@ li:hover{
     align-items: center;
     justify-content: space-around;
     margin: 0 auto 2rem auto;
-    border: 4px dashed white;
+    
     grid-area: intro;
     
 }
@@ -208,7 +208,7 @@ li:hover{
     height: auto;
     margin: 2rem auto;
     grid-area: early;
-    border: 2px solid white;
+   
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -269,7 +269,7 @@ li:hover{
     align-items: center;
     justify-content: space-around;
     margin: 0 auto 2rem auto;
-    border: 4px dashed white;
+    
     grid-area: expressions;
     
 }
@@ -325,7 +325,7 @@ li:hover{
     height: auto;
     margin: 2rem auto;
     grid-area: rules;
-    border: 2px solid white;
+   
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -389,7 +389,7 @@ li:hover{
     align-items: center;
     justify-content: space-around;
     margin: 0 auto 2rem auto;
-    border: 4px dashed white;
+    
     grid-area: cry;
     
 }
@@ -448,7 +448,7 @@ li:hover{
     align-items: center;
     justify-content: space-around;
     margin: 0 auto 2rem auto;
-    border: 4px dashed white;
+    
     grid-area: childhood;
     
 }
@@ -575,7 +575,7 @@ li:hover{
     align-items: center;
     justify-content: space-around;
     margin: 0 auto 2rem auto;
-    border: 4px dashed white;
+    
     grid-area: intro;
     
 }
@@ -632,7 +632,7 @@ li:hover{
     height: auto;
     margin: 2rem auto;
     grid-area: early;
-    border: 2px solid white;
+    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -693,7 +693,7 @@ li:hover{
     align-items: center;
     justify-content: space-around;
     margin: 0 auto 2rem auto;
-    border: 4px dashed white;
+    
     grid-area: expressions;
     
 }
@@ -750,7 +750,7 @@ li:hover{
     height: auto;
     margin: 2rem auto;
     grid-area: rules;
-    border: 2px solid white;
+   
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -815,7 +815,7 @@ li:hover{
     align-items: center;
     justify-content: space-around;
     margin: 0 auto 2rem auto;
-    border: 4px dashed white;
+    
     grid-area: cry;
     
 }
@@ -874,7 +874,7 @@ li:hover{
     align-items: center;
     justify-content: space-around;
     margin: 0 auto 2rem auto;
-    border: 4px dashed white;
+    
     grid-area: childhood;
     
 }
@@ -966,7 +966,7 @@ li:hover{
         align-items: center;
         justify-content: space-around;
         margin: 0 auto 2rem auto;
-        border: 4px dashed white;
+       
         grid-area: intro;
         
     }
@@ -1024,7 +1024,7 @@ li:hover{
         height: auto;
         margin: 2rem auto;
         grid-area: early;
-        border: 2px solid white;
+        
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -1085,7 +1085,7 @@ li:hover{
         align-items: center;
         justify-content: space-around;
         margin: 0 auto 2rem auto;
-        border: 4px dashed white;
+        
         grid-area: expressions;
         
     }
@@ -1141,7 +1141,7 @@ li:hover{
         height: auto;
         margin: 2rem auto;
         grid-area: rules;
-        border: 2px solid white;
+        
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -1206,7 +1206,7 @@ li:hover{
         align-items: center;
         justify-content: space-around;
         margin: 0 auto 2rem auto;
-        border: 4px dashed white;
+        
         grid-area: cry;
         
     }
@@ -1265,7 +1265,7 @@ li:hover{
         align-items: center;
         justify-content: space-around;
         margin: 0 auto 2rem auto;
-        border: 4px dashed white;
+       
         grid-area: childhood;
         
     }
@@ -1356,7 +1356,7 @@ li:hover{
         align-items: center;
         justify-content: space-around;
         margin: 0 auto 2rem auto;
-        border: 4px dashed white;
+        
         grid-area: intro;
         
     }
@@ -1413,7 +1413,7 @@ li:hover{
         height: auto;
         margin: 2rem auto;
         grid-area: early;
-        border: 2px solid white;
+        
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1474,7 +1474,7 @@ li:hover{
         align-items: center;
         justify-content: space-around;
         margin: 0 auto 2rem auto;
-        border: 4px dashed white;
+        
         grid-area: expressions;
         
     }
@@ -1530,7 +1530,7 @@ li:hover{
         height: auto;
         margin: 2rem auto;
         grid-area: rules;
-        border: 2px solid white;
+        
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1595,7 +1595,7 @@ li:hover{
         align-items: center;
         justify-content: space-around;
         margin: 0 auto 2rem auto;
-        border: 4px dashed white;
+        
         grid-area: cry;
         
     }
@@ -1654,7 +1654,7 @@ li:hover{
         align-items: center;
         justify-content: space-around;
         margin: 0 auto 2rem auto;
-        border: 4px dashed white;
+        
         grid-area: childhood;
         
     }
