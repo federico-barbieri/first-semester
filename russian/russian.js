@@ -31,7 +31,7 @@ proximity.addEventListener('mouseout', () => {
 
 // PROXIMITY MOBILE
 
-proximity.addEventListener('onclick', () => {
+proximity.addEventListener('touchstart', () => {
     proximity.style.fontSize = "1rem";
     proximity.style.lineHeight = "1.4";
     proximity.innerHTML = "The Law Of Proximity can be seen in the navigation bar where similar elements are together."
@@ -56,7 +56,7 @@ fate.addEventListener('mouseout', () => {
 
 // FATE MOBILE 
 
-fate.addEventListener('onclick', () => {
+fate.addEventListener('touchstart', () => {
     fate.style.fontSize = "1rem";
     fate.style.lineHeight = "1.4";
     fate.innerHTML = "The Law Of Common Fate can be seen in the navigation bar when you hover over the items and they all get an underline decoration."
@@ -82,7 +82,7 @@ figure.addEventListener('mouseout', () => {
 
 // FIGURE GROUND MOBILE 
 
-figure.addEventListener('onclick', () => {
+figure.addEventListener('touchstart', () => {
     figure.style.fontSize = "1rem";
     figure.style.lineHeight = "1.4";
     figure.innerHTML = "The Law Of Figure Ground can be seen when you hover over images and they acquire a box shadow that contrasts with the white background."
@@ -106,7 +106,7 @@ similarity.addEventListener('mouseout', () => {
 
 // SIMILARITY MOBILE 
 
-similarity.addEventListener('onclick', () => {
+similarity.addEventListener('touchstart', () => {
     similarity.style.fontSize = "1rem";
     similarity.style.lineHeight = "1.4";
     
@@ -131,7 +131,7 @@ continuity.addEventListener('mouseout', () => {
 
 // CONTINUITY MOBILE 
 
-continuity.addEventListener('onclick', () => {
+continuity.addEventListener('touchstart', () => {
     continuity.style.fontSize = "1rem";
     continuity.style.lineHeight = "1.4";
     
@@ -157,7 +157,7 @@ focal.addEventListener('mouseout', () => {
 
 // FOCAL MOBILE 
 
-focal.addEventListener('onclick', () => {
+focal.addEventListener('touchstart', () => {
     focal.style.fontSize = "1rem";
     focal.style.lineHeight = "1.4";
     
