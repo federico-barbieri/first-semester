@@ -111,6 +111,7 @@ li:hover{
     text-align: center;
     color: white;
     background-color:#141E27;
+    
 }
 
 .forward-title{
@@ -131,8 +132,7 @@ li:hover{
 
 .fa-arrow-right-long{
     color: white;
-    transform: scale(1.2);
-    margin-top: 2rem;
+    transform: scale(4);  
 }
 
 /* RUSSIAN CONSTRUCTIVISM */
@@ -158,8 +158,8 @@ li:hover{
 
 .fa-arrow-down-long{
     color: white;
-    transform: scale(1.2);
-    margin: 2rem auto 0 auto;
+    transform: scale(3);
+    margin: 0rem auto 2rem auto;
 }
 
 .russian-btn{
@@ -207,8 +207,8 @@ li:hover{
 
 .micro-arrow{
     color: white;
-    transform: scale(1.2);
-    margin: 2rem auto 0 auto;
+    transform: scale(3);
+    margin: 0rem auto 2rem auto;
 }
 
 .micro-btn{
@@ -256,8 +256,8 @@ li:hover{
 
 .chess-arrow{
     color: black;
-    transform: scale(1.2);
-    margin: 2rem auto 0 auto;
+    transform: scale(3);
+    margin: 0rem auto 2rem auto;
 }
 
 .chess-btn{
@@ -308,8 +308,8 @@ li:hover{
 
 .hex-arrow{
     color: white;
-    transform: scale(1.2);
-    margin: 2rem auto 0 auto;
+    transform: scale(3);
+    margin: 0rem auto 2rem auto;
 }
 
 .hex-btn{
@@ -358,8 +358,8 @@ li:hover{
 
 .chameleon-arrow{
     color: white;
-    transform: scale(1.2);
-    margin: 2rem auto 0 auto;
+    transform: scale(3);
+    margin: 0rem auto 2rem auto;
 }
 
 .chameleon-btn{
@@ -407,8 +407,8 @@ li:hover{
 
 .beer-arrow{
     color: white;
-    transform: scale(1.2);
-    margin: 2rem auto 0 auto;
+    transform: scale(3);
+    margin: 0rem auto 2rem auto;
 }
 
 .beer-btn{
@@ -459,4 +459,51 @@ background-size: contain;
 ::-webkit-scrollbar-thumb:hover{
     background:linear-gradient(blue, coral);
     
+}
+
+@media only screen and (max-width: 500px){
+
+
+    .fa-arrow-right-long{
+        color: white;
+        transform: scale(3);
+        margin: 2rem auto 0 auto;  
+    }
+
+    .fa-arrow-down-long{
+        color: white;
+        transform: scale(2);
+        margin: 2rem auto 2rem auto;
+    }
+
+
+    .micro-arrow{
+        color: white;
+        transform: scale(2);
+        margin: 2rem auto 2rem auto;
+    }
+
+    .chess-arrow{
+        color: black;
+        transform: scale(2);
+        margin: 2rem auto 2rem auto;
+    }
+
+    .hex-arrow{
+        color: white;
+        transform: scale(2);
+        margin: 2rem auto 2rem auto;
+    }
+
+    .chameleon-arrow{
+        color: white;
+        transform: scale(2);
+        margin: 2rem auto 2rem auto;
+    }
+
+    .beer-arrow{
+        color: white;
+        transform: scale(2);
+        margin: 2rem auto 2rem auto;
+    }
 }
