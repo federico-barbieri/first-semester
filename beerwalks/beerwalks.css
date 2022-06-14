@@ -775,3 +775,360 @@ nav{
 
 
 }
+
+
+/* MEDIA QUERY MAX 500PX */
+
+
+@media only screen and (max-width: 500px){
+
+
+    /* beerwalks */
+    
+    #beerwalks{
+        background-color: #1F2125;
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .beer-title{
+        font-family: ethnocentric, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 6vw;
+        filter:drop-shadow(2px 2px 4px black);
+        margin: 15rem auto 5rem auto;
+    }
+    
+    /* INTRO P */
+    
+    .intro-p{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        width: 80%;
+        line-height: 1.4;
+        margin-bottom: 2rem;
+    }
+    
+    /* GREEDY GRID */ 
+    
+    #greedy{
+        display: grid;
+        width: 80vw;
+        height: 350vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 7(repeat, 1fr);
+        grid-template-areas:
+        "teamcanvas"
+        "persona"
+        "story"
+        "jobs"
+        "filming"
+        "coding"
+        "learnings";
+        gap: none;
+        
+    }
+    
+    
+    /* FIRST SECTION */
+    
+    .teamcanvas{
+        width: 90vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 2rem auto;
+        grid-area: teamcanvas;
+        border-top: 2px solid white;
+        padding-top: 2rem;
+    }
+    
+    .team-canvas-img{
+        width: 80%;
+        height: auto;
+        display: block;
+    }
+    
+    .team-canvas-p{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: white;
+        width: 70%;
+    
+    }
+    
+    
+    /* SECOND SECTION */
+    
+    .persona{
+        width: 90vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 4rem auto 2rem auto;
+        grid-area: persona;
+        border-top: 2px solid white;
+        padding-top: 2rem;
+    }
+    
+    .persona-p{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: white;
+        width: 80%;
+    }
+    
+    .persona-ul{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: white;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        list-style-type: none;
+        margin: 0 auto;
+        text-align: left;
+    }
+    
+    
+    /* THIRD SECTION */
+    
+    .story{
+        width: 90vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 4rem auto 2rem auto;
+        grid-area: story;
+        border-top: 2px solid white;
+        padding-top: 2rem;
+    }
+    
+    .story-p{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: white;
+        width: 80%;
+    }
+    
+    .story-img{
+        width: 80%;
+        height: auto;
+        display: block;
+    }
+    
+    
+    /* FOURTH SECTION */
+    
+    .jobs{
+        width: 90vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 4rem auto 2rem auto;
+        grid-area: jobs;
+        border-top: 2px solid white;
+        padding-top: 2rem;
+    }
+    
+    .jobs-p{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: white;
+        width: 80%;
+    }
+    
+    .jobs-img{
+        width: 60%;
+        height: auto;
+        display: block;
+    }
+    
+    /* FIFTH SECTION */
+    
+    .filming{
+        width: 90vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 4rem auto 2rem auto;
+        grid-area: filming;
+        border-top: 2px solid white;
+        padding-top: 2rem;
+    }
+    
+    .filming-p{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: white;
+        width: 80%;
+    }
+    
+    .filming-img{
+        width: 70%;
+        height: auto;
+        display: block;
+    }
+    
+    
+    /* SIXTH SECTION */
+    
+    .coding{
+        width: 90vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 4rem auto 2rem auto;
+        grid-area: coding;
+        border-top: 2px solid white;
+        padding-top: 2rem;
+    }
+    
+    .coding-p-one{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: white;
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+    
+    .coding-examples{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    
+    .code1{
+        width: 80%;
+        height: auto;
+        display: block;
+        margin-bottom: 2rem;
+    }
+    
+    .code2{
+        width: 80%;
+        height: auto;
+        display: block;
+    }
+    
+    
+    /* SEVENTH SECTION */
+    
+    .learnings{
+        width: 90vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 4rem auto 2rem auto;
+        grid-area: learnings;
+        border-top: 2px solid white;
+        padding-top: 2rem;
+    }
+    
+    .learnings-p{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: white;
+        width: 50%;
+        margin-bottom: 2rem;
+    }
+    
+    .learnings-ul{
+        width: 90%;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    
+    
+    /* FINAL PRODUCT */
+    
+    .final-product{
+        font-family: forma-djr-micro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: white;
+        width: 80%;
+        margin-top: 5rem;
+        border-top: 2px solid white;
+        padding-top: 5rem;
+    }
+    
+    .underline{
+        text-decoration: underline;
+    }
+    
+    
+    
+    /* BUTTON */
+    
+    .beer-btn{
+        font-family: ethnocentric, sans-serif;
+        font-weight: 200;
+        font-style: italic;
+        font-size: 1rem;
+        color: white;
+        background-color:#141E27;
+        transition: all;
+        margin: 5rem auto 4rem auto;
+        padding: 0.5rem 1rem;
+    }
+    
+    .beer-btn:hover{
+        transition-duration: 1s;
+        transition-delay: 0.2s;
+        box-shadow: 2px 4px 4px;
+        border-radius: 5px;
+        color:#141E27;
+        background-color: white;
+        cursor: pointer;
+    }
+    
+    
+    
+    }
