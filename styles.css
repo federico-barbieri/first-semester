@@ -20,7 +20,6 @@ a:visited{
 #container{
     width: 100%;
     height: 100%;
-    
     scroll-snap-type: x mandatory;
     overflow-x: scroll;
     display: flex;
@@ -32,9 +31,10 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    width: 90vw;
     height: 100vh;
     scroll-snap-align: start;
+    
 }
 
 /* HEADER */
@@ -60,7 +60,7 @@ nav{
     height: 10vh;
     justify-content: space-between;
     margin: 0rem auto 0 auto;
-    font-family: ethnocentric, sans-serif;
+    font-family: "ohm-bold", sans-serif;
     font-weight: 200;
     font-style: italic;
     z-index: 50;
@@ -85,13 +85,13 @@ ul{
     align-items: center;
     justify-content: space-around;
     list-style-type: none;
-    font-size: 0.8rem;
+    font-size: 1rem;
     
     margin-top: 1.5rem;
 }
 
 li{
-    padding: 0.3rem 0.5rem;
+    padding: 0.3rem 0.2rem;
     text-align: center;
 }
 
@@ -111,33 +111,21 @@ li:hover{
     text-align: center;
     color: white;
     background-color:#141E27;
-    
+    border-right-style: groove;
 }
 
 .forward-title{
-    font-family: ethnocentric, sans-serif;
+    font-family: "ohm-bold", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 9vw;
-    height: 20vh;
+    height: 15vh;
     filter:drop-shadow(2px 2px 4px black)
 }
 
-.first-semester-recap{
-    font-family: ethnocentric, sans-serif;
-    font-weight: 200;
-    font-style: italic;
-    font-size: 4vw;
-}
+/* DANISHCRIPT */
 
-.fa-arrow-right-long{
-    color: white;
-    transform: scale(4);  
-}
-
-/* RUSSIAN CONSTRUCTIVISM */
-
-#russian-constructivism{
+#danishcript{
     background-color: rgb(204, 0, 0);
     color: rgb(255, 215, 0);
     text-align: center;
@@ -147,8 +135,8 @@ li:hover{
     justify-content: center;
 }
 
-.russian-title{
-    font-family: ethnocentric, sans-serif;
+.danishcript-title{
+    font-family: "ohm-bold", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 7vw;
@@ -162,8 +150,8 @@ li:hover{
     margin: 0rem auto 2rem auto;
 }
 
-.russian-btn{
-    font-family: ethnocentric, sans-serif;
+.danishcript-btn{
+    font-family: "ohm-bold", sans-serif;
     font-weight: 200;
     font-style: italic;
     font-size: 1rem;
@@ -174,7 +162,7 @@ li:hover{
     padding: 0.5rem 1rem;
 }
 
-.russian-btn:hover{
+.danishcript-btn:hover{
     transition-duration: 1s;
     transition-delay: 0.2s;
     box-shadow: 2px 4px 4px;
@@ -184,7 +172,7 @@ li:hover{
     cursor: pointer;
 }
 
-/* HISTORY OF THE MICROCOMPUTER */
+/* HISTORY OF THE MICROCOMPUTER 
 
 #microcomputer{
     background-color: #018281;
@@ -233,6 +221,8 @@ li:hover{
     cursor: pointer;
 }
 
+*/
+
 /* CHESSPRESSIONISM */
 
 #chesspressionism{
@@ -247,7 +237,7 @@ li:hover{
 }
 
 .chesspressionism-title{
-    font-family: ethnocentric, sans-serif;
+    font-family: "ohm-bold", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 6vw;
@@ -261,7 +251,7 @@ li:hover{
 }
 
 .chess-btn{
-    font-family: ethnocentric, sans-serif;
+    font-family: "ohm-bold", sans-serif;
     font-weight: 200;
     font-style: italic;
     font-size: 1rem;
@@ -282,7 +272,7 @@ li:hover{
     cursor: pointer;
 }
 
-/* HEX KBH */
+/* HEX KBH 
 
 #hex{
     background: rgb(247,134,246);
@@ -298,7 +288,7 @@ li:hover{
 }
 
 .hex-title{
-    font-family: ethnocentric, sans-serif;
+    font-family: "ohm-bold", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 6vw;
@@ -310,10 +300,11 @@ li:hover{
     color: white;
     transform: scale(3);
     margin: 0rem auto 2rem auto;
+    
 }
 
 .hex-btn{
-    font-family: ethnocentric, sans-serif;
+    font-family: "ohm-bold", sans-serif;
     font-weight: 200;
     font-style: italic;
     font-size: 1rem;
@@ -334,6 +325,7 @@ li:hover{
     cursor: pointer;
 }
 
+*/
 
 /* CHAMELEON */
 
@@ -349,7 +341,7 @@ li:hover{
 }
 
 .chameleon-title{
-    font-family: ethnocentric, sans-serif;
+    font-family: "ohm-bold", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 6vw;
@@ -363,7 +355,7 @@ li:hover{
 }
 
 .chameleon-btn{
-    font-family: ethnocentric, sans-serif;
+    font-family: "ohm-bold", sans-serif;
     font-weight: 200;
     font-style: italic;
     font-size: 1rem;
@@ -384,7 +376,7 @@ li:hover{
     cursor: pointer;
 }
 
-/* BEERWALKS.DK */
+/* BEERWALKS.DK 
 
 #beerwalks{
     background-color: #1F2125;
@@ -433,6 +425,8 @@ li:hover{
     cursor: pointer;
 }
 
+*/
+
 
 /* SCROLLBAR */
 
@@ -443,32 +437,23 @@ li:hover{
 
 ::-webkit-scrollbar-track{
 background: hsl(40 50% 75% / 1);
-background: url('scroll2.svg');
-background-position: center;
-background-size: contain;
 
 }
 
 ::-webkit-scrollbar-thumb{
-    background:linear-gradient(lightblue, pink);
+    background:linear-gradient(lightblue, orange);
     border-radius: 100vw;
     border: 2px solid white;
     width: 1rem;  
 }
 
 ::-webkit-scrollbar-thumb:hover{
-    background:linear-gradient(blue, coral);
+    background:linear-gradient(lightblue, coral);
     
 }
 
 @media only screen and (max-width: 500px){
 
-
-    .fa-arrow-right-long{
-        color: white;
-        transform: scale(3);
-        margin: 2rem auto 0 auto;  
-    }
 
     .fa-arrow-down-long{
         color: white;
