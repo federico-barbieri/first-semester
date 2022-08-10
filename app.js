@@ -4,20 +4,22 @@ let mainTitle = document.querySelector('.forward-title');
 
 function createMultimedia(){
     mainTitle.style.fontFamily = "ohm-bold, sans serif";
-    mainTitle.innerHTML = "MULTIMEDIA DESIGNER";
-    
+    mainTitle.innerHTML = "MULTIMEDIA DESIGNER";   
+}
+
+function createContent(){
+    mainTitle.style.fontFamily = "ohm-bold, sans serif";
+    mainTitle.innerHTML = "CONTENT CREATOR";   
 }
 
 function createFrontend(){
     mainTitle.style.fontFamily = "ohm-bold, sans serif";
-    mainTitle.innerHTML = "FRONTEND";
+    mainTitle.innerHTML = "FRONTEND DEVELOPER";
 }
 
 function createCopywriter(){
     mainTitle.style.fontFamily = "ohm-bold, sans serif";
-    mainTitle.innerHTML = "COPYWRITER";
-    
-    
+    mainTitle.innerHTML = "COPYWRITER";  
 }
 
 function createName(){
@@ -29,10 +31,11 @@ function createName(){
 // make a function that holds all the other functions and put them in a timeout
 
 function everything(){
-    setTimeout(createMultimedia, 2000);
-    setTimeout(createFrontend, 4000);
-    setTimeout(createCopywriter, 6000);
-    setTimeout(createName, 8000);
+    setTimeout(createMultimedia, 1000);
+    setTimeout(createContent, 3000);
+    setTimeout(createFrontend, 5000);
+    setTimeout(createCopywriter, 7000);
+    setTimeout(createName, 9000);
     setTimeout(everything, 10000);
 }
 
