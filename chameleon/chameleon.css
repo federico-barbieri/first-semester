@@ -51,7 +51,7 @@ nav{
     height: 10vh;
     justify-content: space-between;
     margin: 0rem auto 0 auto;
-    font-family: ethnocentric, sans-serif;
+    font-family: "ohm-bold", sans-serif;
     font-weight: 200;
     font-style: italic;
     z-index: 50;
@@ -95,7 +95,7 @@ li:hover{
 /* hex */
 
 #chameleon{
-    background-color: #00B200;
+    background-color:#1c364b;
     color: white;
     text-align: center;
     display: flex;
@@ -106,7 +106,7 @@ li:hover{
 }
 
 .chameleon-title{
-    font-family: ethnocentric, sans-serif;
+    font-family: "ohm-bold", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 6vw;
@@ -129,7 +129,7 @@ li:hover{
     height: 600vh;
     margin: 5rem auto;
     grid-template-columns: 1fr;
-    grid-template-rows: 6(repeat, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     grid-template-areas:
     "intro"
     "early"
@@ -137,7 +137,7 @@ li:hover{
     "rules"
     "cry"
     "childhood";
-    gap: none;
+
     color: white;
     
     justify-content: center;
@@ -191,7 +191,7 @@ li:hover{
     border-radius: 70%;
     text-align: center;
     background-color: hsl(20 10% 10% / 0.2);
-    box-shadow: 4px 4px 5px green;
+    box-shadow: 4px 4px 5px #1c364b;
     margin: 2rem 0rem 0 18rem;
 }
     
@@ -240,7 +240,7 @@ li:hover{
     border-radius: 50%;
     text-align: center;
     background-color: hsl(20 10% 10% / 0.2);
-    box-shadow: 4px 4px 5px green;
+    box-shadow: 4px 4px 5px #1c364b;
     margin: 2rem 0 0 4rem;
 }
 
@@ -309,7 +309,7 @@ li:hover{
     border-radius: 70%;
     text-align: center;
     background-color: hsl(20 10% 10% / 0.2);
-    box-shadow: 4px 4px 5px green;
+    box-shadow: 4px 4px 5px #1c364b;
     margin: 12rem 0rem 0 20rem;
 }
     
@@ -357,7 +357,7 @@ li:hover{
     border-radius: 70%;
     text-align: center;
     background-color: hsl(20 10% 10% / 0.2);
-    box-shadow: 4px 4px 5px green;
+    box-shadow: 4px 4px 5px #1c364b;
     margin: 12rem 0 0 8rem;
 }
 
@@ -429,7 +429,7 @@ li:hover{
     border-radius: 70%;
     text-align: center;
     background-color: hsl(20 10% 10% / 0.2);
-    box-shadow: 4px 4px 5px green;
+    box-shadow: 4px 4px 5px #1c364b;
     margin: 12rem 0rem 0 20rem;
 }
     
@@ -488,7 +488,7 @@ li:hover{
     border-radius: 70%;
     text-align: center;
     background-color: hsl(20 10% 10% / 0.2);
-    box-shadow: 4px 4px 5px green;
+    box-shadow: 4px 4px 5px #1c364b;
     margin: 2rem 0 0 5rem;
     background: url('img/cham-moodboard.svg');
     background-repeat: no-repeat;
@@ -535,10 +535,10 @@ li:hover{
 /* BUTTON */
 
 .chameleon-btn{
-    font-family: ethnocentric, sans-serif;
+    font-family: "ohm-bold", sans-serif;
     font-weight: 200;
     font-style: italic;
-    font-size: 1rem;
+    font-size: 2rem;
     color: white;
     background-color:#141E27;
     transition: all;
@@ -569,7 +569,7 @@ li:hover{
     height: 600vh;
     margin: 5rem auto;
     grid-template-columns: 1fr;
-    grid-template-rows: 6(repeat, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     grid-template-areas:
     "intro"
     "early"
@@ -577,7 +577,7 @@ li:hover{
     "rules"
     "cry"
     "childhood";
-    gap: none;
+
     color: white;
     
     justify-content: center;
@@ -632,7 +632,7 @@ li:hover{
     border-radius: 70%;
     text-align: center;
     background-color: hsl(20 10% 10% / 0.2);
-    box-shadow: 4px 4px 5px green;
+    box-shadow: 4px 4px 5px #1c364b;
     margin: 2rem 0rem 0 10rem;
 }
     
@@ -681,7 +681,7 @@ li:hover{
     border-radius: 50%;
     text-align: center;
     background-color: hsl(20 10% 10% / 0.2);
-    box-shadow: 4px 4px 5px green;
+    box-shadow: 4px 4px 5px #1c364b;
     margin: 2rem 0 0 4rem;
 }
 
@@ -751,7 +751,7 @@ li:hover{
     border-radius: 70%;
     text-align: center;
     background-color: hsl(20 10% 10% / 0.2);
-    box-shadow: 4px 4px 5px green;
+    box-shadow: 4px 4px 5px #1c364b;
     margin: 12rem 0rem 0 10rem;
 }
     
@@ -799,7 +799,7 @@ li:hover{
     border-radius: 70%;
     text-align: center;
     background-color: hsl(20 10% 10% / 0.2);
-    box-shadow: 4px 4px 5px green;
+    box-shadow: 4px 4px 5px #1c364b;
     margin: 12rem 0 0 8rem;
 }
 
@@ -872,7 +872,7 @@ li:hover{
     border-radius: 70%;
     text-align: center;
     background-color: hsl(20 10% 10% / 0.2);
-    box-shadow: 4px 4px 5px green;
+    box-shadow: 4px 4px 5px #1c364b;
     margin: 12rem 0rem 0 10rem;
 }
     
@@ -931,7 +931,7 @@ li:hover{
     border-radius: 70%;
     text-align: center;
     background-color: hsl(20 10% 10% / 0.2);
-    box-shadow: 4px 4px 5px green;
+    box-shadow: 4px 4px 5px #1c364b;
     margin: 2rem 0 0 5rem;
     background: url('img/cham-moodboard.svg');
     background-repeat: no-repeat;
@@ -960,7 +960,7 @@ li:hover{
         height: 600vh;
         margin: 5rem auto;
         grid-template-columns: 1fr;
-        grid-template-rows: 6(repeat, 1fr);
+        grid-template-rows: repeat(6, 1fr);
         grid-template-areas:
         "intro"
         "early"
@@ -968,7 +968,7 @@ li:hover{
         "rules"
         "cry"
         "childhood";
-        gap: none;
+
         color: white;
         
         justify-content: center;
@@ -1024,7 +1024,7 @@ li:hover{
         border-radius: 70%;
         text-align: center;
         background-color: hsl(20 10% 10% / 0.2);
-        box-shadow: 4px 4px 5px green;
+        box-shadow: 4px 4px 5px #1c364b;
         margin: 2rem 0rem 0 7rem;
     }
         
@@ -1073,7 +1073,7 @@ li:hover{
         border-radius: 50%;
         text-align: center;
         background-color: hsl(20 10% 10% / 0.2);
-        box-shadow: 4px 4px 5px green;
+        box-shadow: 4px 4px 5px #1c364b;
         margin: 2rem 0 0 4rem;
     }
     
@@ -1142,7 +1142,7 @@ li:hover{
         border-radius: 70%;
         text-align: center;
         background-color: hsl(20 10% 10% / 0.2);
-        box-shadow: 4px 4px 5px green;
+        box-shadow: 4px 4px 5px #1c364b;
         margin: 12rem 0rem 0 5rem;
     }
         
@@ -1190,7 +1190,7 @@ li:hover{
         border-radius: 70%;
         text-align: center;
         background-color: hsl(20 10% 10% / 0.2);
-        box-shadow: 4px 4px 5px green;
+        box-shadow: 4px 4px 5px #1c364b;
         margin: 12rem 0 0 3rem;
     }
     
@@ -1263,7 +1263,7 @@ li:hover{
         border-radius: 70%;
         text-align: center;
         background-color: hsl(20 10% 10% / 0.2);
-        box-shadow: 4px 4px 5px green;
+        box-shadow: 4px 4px 5px #1c364b;
         margin: 12rem 0rem 0 4rem;
     }
         
@@ -1322,7 +1322,7 @@ li:hover{
         border-radius: 70%;
         text-align: center;
         background-color: hsl(20 10% 10% / 0.2);
-        box-shadow: 4px 4px 5px green;
+        box-shadow: 4px 4px 5px #1c364b;
         margin: 2rem 0 0 5rem;
         background: url('img/cham-moodboard.svg');
         background-repeat: no-repeat;
@@ -1358,7 +1358,7 @@ li:hover{
         height: 600vh;
         margin: 5rem auto;
         grid-template-columns: 1fr;
-        grid-template-rows: 6(repeat, 1fr);
+        grid-template-rows: repeat(6, 1fr);
         grid-template-areas:
         "intro"
         "early"
@@ -1366,7 +1366,7 @@ li:hover{
         "rules"
         "cry"
         "childhood";
-        gap: none;
+
         color: white;
         
         justify-content: center;
@@ -1421,7 +1421,7 @@ li:hover{
         border-radius: 70%;
         text-align: center;
         background-color: hsl(20 10% 10% / 0.2);
-        box-shadow: 4px 4px 5px green;
+        box-shadow: 4px 4px 5px #1c364b;
         margin: 2rem 0rem 0 3rem;
     }
         
@@ -1470,7 +1470,7 @@ li:hover{
         border-radius: 50%;
         text-align: center;
         background-color: hsl(20 10% 10% / 0.2);
-        box-shadow: 4px 4px 5px green;
+        box-shadow: 4px 4px 5px #1c364b;
         margin: 2rem 0 0 4rem;
     }
     
@@ -1539,7 +1539,7 @@ li:hover{
         border-radius: 70%;
         text-align: center;
         background-color: hsl(20 10% 10% / 0.2);
-        box-shadow: 4px 4px 5px green;
+        box-shadow: 4px 4px 5px #1c364b;
         margin: 7rem 0rem 0 5rem;
     }
         
@@ -1587,7 +1587,7 @@ li:hover{
         border-radius: 70%;
         text-align: center;
         background-color: hsl(20 10% 10% / 0.2);
-        box-shadow: 4px 4px 5px green;
+        box-shadow: 4px 4px 5px #1c364b;
         margin: 8rem 0 0 3rem;
     }
     
@@ -1660,7 +1660,7 @@ li:hover{
         border-radius: 70%;
         text-align: center;
         background-color: hsl(20 10% 10% / 0.2);
-        box-shadow: 4px 4px 5px green;
+        box-shadow: 4px 4px 5px #1c364b;
         margin: 7rem 0rem 0 4rem;
     }
         
@@ -1719,7 +1719,7 @@ li:hover{
         border-radius: 70%;
         text-align: center;
         background-color: hsl(20 10% 10% / 0.2);
-        box-shadow: 4px 4px 5px green;
+        box-shadow: 4px 4px 5px #1c364b;
         margin: 2rem 0 0 5rem;
         background: url('img/cham-moodboard.svg');
         background-repeat: no-repeat;
