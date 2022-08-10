@@ -209,6 +209,7 @@ p.process-p{
     margin: 2rem auto;
 }
 
+
 .imperativ-img{
     max-width: 85%;
     height: auto;
@@ -246,6 +247,7 @@ p.process-p{
     transition: all;
     margin: 5rem auto 4rem auto;
     padding: 0.5rem 1rem;
+    width: 100%;
 }
 
 .danish-btn:hover{
