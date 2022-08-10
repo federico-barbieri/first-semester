@@ -23,3 +23,15 @@ if (width < 500){
     else {
         imperativImg.src = "exports/imperativ.png"; 
     }
+
+
+// adjektiver image 
+
+let adjektiverImg = document.querySelector('.adjektiver-img');
+
+if (width < 500){
+    adjektiverImg.src = "exports/mobile/adjektiver-mobile.png";
+}
+    else {
+        adjektiverImg.src = "exports/adjektiver-desk.png"; 
+    }

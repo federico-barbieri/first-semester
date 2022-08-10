@@ -216,6 +216,50 @@ p.process-p{
     margin: 2rem auto;
 }
 
+/* categories */
+
+.categories-h2{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+    margin: 4rem auto 1rem auto;
+    width: 85%;
+
+}
+
+p.categories-p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: black;
+    margin: 0rem auto;
+    width: 85%;
+    display: block;
+    text-align: right;
+}
+
+.sa-img{
+    max-width: 85%;
+    height: auto;
+    margin: 2rem auto;
+}
+
+
+.imperativ-img{
+    max-width: 85%;
+    height: auto;
+    margin: 2rem auto;
+}
+
+.adjektiver-img{
+    max-width: 85%;
+    height: auto;
+    margin: 2rem auto;
+}
+
+
 
 /* FINAL PRODUCT */
 
@@ -227,6 +271,7 @@ p.process-p{
     color: black;
     width: 80%;
     margin-top: 5rem;
+    text-align: center;
 }
 
 .here-span{
@@ -237,6 +282,11 @@ p.process-p{
 
 /* BUTTON */
 
+.btn-form{
+    margin: 3rem auto;
+}
+
+
 .danish-btn{
     font-family: "ohm-bold", sans-serif;
     font-weight: 200;
@@ -245,7 +295,6 @@ p.process-p{
     color: white;
     background-color:#141E27;
     transition: all;
-    margin: 5rem auto 4rem auto;
     padding: 0.5rem 1rem;
     width: 100%;
 }
