@@ -62,7 +62,7 @@ nav{
     height: 10vh;
     justify-content: space-between;
     margin: 0rem auto 0 auto;
-    font-family: ethnocentric, sans-serif;
+    font-family: "ohm-bold", sans-serif;
     font-weight: 200;
     font-style: italic;
     z-index: 50;
@@ -97,8 +97,13 @@ li{
     text-align: center;
 }
 
-li:hover{
+.about-nav:hover{
     cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+li:hover{
     background-color: white;
     color: black;
 }
@@ -107,7 +112,7 @@ li:hover{
 /* SIDE PROJECTS */
 
 #side-projects{
-    background-color: #1687A7;
+    background-color:#1a2b39;
     color: white;
     text-align: center;
     display: flex;
@@ -118,7 +123,7 @@ li:hover{
 }
 
 .side-title{
-    font-family: ethnocentric, sans-serif;
+    font-family: "ohm-bold", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 7vw;
@@ -142,104 +147,63 @@ li:hover{
 
 .grid-section{
     display: grid;
-    width: 90vw;
+    width: 100vw;
     height: 40vh;
-    grid-template-columns: 2(repeat, 1fr);
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
-    "danish list"
-    "cards sakurai";
+    "email"
+    "linkedin";
     
     justify-content: center;
     align-content: center;
     color: white;
-    font-family: ethnocentric, sans-serif;
+    font-family: forma-djr-micro, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 2rem;
+    
 }
 
 .danishcript{
-    grid-area: danish;
-    width: 45vw;
+    grid-area: email;
+    width: 80vw;
     height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 2px solid white;
+    margin: 0rem auto;
+    
 }
 
 .danishcript:hover{
     background-color: #0a6078;
-    cursor: pointer;
+    
 }
 
 .list{
-    grid-area: list;
-    width: 45vw;
+    grid-area: linkedin;
+    width: 80vw;
     height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 2px solid white;
+    margin: 0rem auto;
 }
 
 
 .list:hover{
     background-color: #0a6078;
-    cursor: pointer;
-}
-
-.cards{
-    grid-area: cards;
-    width: 45vw;
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid white;
-}
-
-.cards:hover{
-    background-color: #0a6078;
-    cursor: pointer;
-}
-
-.sakurai{
-    grid-area: sakurai;
-    width: 45vw;
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid white;
-}
-
-.sakurai:hover{
-    background-color: #0a6078;
-    cursor: pointer;
-}
-
-/* FINAL PRODUCT */
-
-.final-product{
-    font-family: forma-djr-micro, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.5rem;
-    color: white;
-    text-align: left;
-    padding: 3rem 1.5rem 1rem 1.5rem;
-    margin: 5rem auto 2rem auto;
-    width: 80vw;
-    line-height: 1.5;
+    
 }
 
 
 /* BUTTON */
 
 .side-btn{
-    font-family: ethnocentric, sans-serif;
+    font-family: "ohm-bold", sans-serif;
     font-weight: 200;
     font-style: italic;
     font-size: 1rem;
@@ -274,16 +238,13 @@ li:hover{
     width: 90vw;
     height: 80vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 4(repeat, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-template-areas:
-    "danish"
-    "list"
-    "cards"
-    "sakurai";    
+    "email"
+    "linkedin";  
     justify-content: center;
     align-content: center;
     color: white;
-    font-family: ethnocentric, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1rem;
@@ -291,7 +252,7 @@ li:hover{
 
 
     .danishcript{
-        grid-area: danish;
+        grid-area: email;
         width: 90vw;
         height: 20vh;
         display: flex;
@@ -301,34 +262,12 @@ li:hover{
     }
     
     .list{
-        grid-area: list;
+        grid-area: linkedin;
         width: 90vw;
         height: 20vh;
         display: flex;
         align-items: center;
         justify-content: center;
         border: 2px solid white;
-    }
-    
-    
-    .cards{
-        grid-area: cards;
-        width: 90vw;
-        height: 20vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 2px solid white;
-    }
-    
-    .sakurai{
-        grid-area: sakurai;
-        width: 90vw;
-        height: 20vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 2px solid white;
-    }
-    
+    }    
 }
