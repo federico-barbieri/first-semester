@@ -126,7 +126,7 @@ li:hover{
     font-family: "ohm-bold", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 7vw;
+    font-size: 15vw;
     filter:drop-shadow(2px 2px 4px black);
     margin: 10rem auto 5rem auto;
 }
@@ -167,12 +167,12 @@ li:hover{
 
 .danishcript{
     grid-area: email;
-    width: 80vw;
+    width: 60vw;
     height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid white;
+    
     margin: 0rem auto;
     
 }
@@ -184,12 +184,12 @@ li:hover{
 
 .list{
     grid-area: linkedin;
-    width: 80vw;
+    width: 60vw;
     height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid white;
+    border-top: 2px dashed white;
     margin: 0rem auto;
 }
 
@@ -206,7 +206,7 @@ li:hover{
     font-family: "ohm-bold", sans-serif;
     font-weight: 200;
     font-style: italic;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: white;
     background-color:#141E27;
     transition: all;
@@ -236,7 +236,7 @@ li:hover{
     .grid-section{
     display: grid;
     width: 90vw;
-    height: 80vh;
+    height: 50vh;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas:
@@ -253,21 +253,32 @@ li:hover{
 
     .danishcript{
         grid-area: email;
-        width: 90vw;
+        width: 60vw;
         height: 20vh;
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 2px solid white;
     }
     
     .list{
         grid-area: linkedin;
-        width: 90vw;
+        width: 60vw;
         height: 20vh;
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 2px solid white;
+        border-top: 2px dashed white;
     }    
+
+    .side-btn{
+        font-family: "ohm-bold", sans-serif;
+        font-weight: 200;
+        font-style: italic;
+        font-size: 1rem;
+        color: white;
+        background-color:#141E27;
+        transition: all;
+        margin: 2rem auto 4rem auto;
+        padding: 0.5rem 1rem;
+    }
 }
