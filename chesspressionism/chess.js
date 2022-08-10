@@ -2,52 +2,52 @@
 
 // grab topic span and write letter by letter as an animation
 
-let topicSpan = document.querySelector('.topics-span');
+let mainTitle = document.querySelector('.topics-span');
 
 
 
 
 function createMath(){
-    topicSpan.style.fontFamily = "ohm-bold, sans serif";
-    topicSpan.innerHTML = "MATHS";
+    mainTitle.style.fontFamily = "ohm-bold, sans serif";
+    mainTitle.innerHTML = "MATHS";
     
 }
 
 function createCancel(){
-    topicSpan.style.fontFamily = "bungee, sans serif";
-    topicSpan.innerHTML = "CANCEL CULTURE";
+    mainTitle.style.fontFamily = "bungee, sans serif";
+    mainTitle.innerHTML = "CANCEL CULTURE";
     
 }
 
 function createArt(){
-    topicSpan.style.fontFamily = "all-round-gothic, sans serif";
-    topicSpan.innerHTML = "ART";
+    mainTitle.style.fontFamily = "all-round-gothic, sans serif";
+    mainTitle.innerHTML = "ART";
     
     
 }
 
 function createPhilo(){
     
-    topicSpan.style.fontFamily = "courage, sans serif";
-    topicSpan.innerHTML = "PHILOSOPHY";
+    mainTitle.style.fontFamily = "courage, sans serif";
+    mainTitle.innerHTML = "PHILOSOPHY";
 }
 
 function createHistory(){
     
-    topicSpan.style.fontFamily = "poiret-one, sans serif";
-    topicSpan.innerHTML = "HISTORY";
+    mainTitle.style.fontFamily = "poiret-one, sans serif";
+    mainTitle.innerHTML = "HISTORY";
 }
 
 function createTech(){
     
-    topicSpan.style.fontFamily = "nasalization, sans serif";
-    topicSpan.innerHTML = "TECHNOLOGY";
+    mainTitle.style.fontFamily = "nasalization, sans serif";
+    mainTitle.innerHTML = "TECHNOLOGY";
 }
 
 function createScience(){
     
-    topicSpan.style.fontFamily = "ff-nuvo-mono-web-pro, sans serif";
-    topicSpan.innerHTML = "SCIENCE";
+    mainTitle.style.fontFamily = "ff-nuvo-mono-web-pro, sans serif";
+    mainTitle.innerHTML = "SCIENCE";
 }
 
 
