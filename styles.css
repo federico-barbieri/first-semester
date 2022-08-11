@@ -463,7 +463,7 @@ background: hsl(220 50% 65% / 1);
 
     .rotoscohagen-arrow{
         color: black;
-        transform: scale(3);
+        transform: scale(2);
         margin: 0rem auto 2rem auto;
     }
 }
