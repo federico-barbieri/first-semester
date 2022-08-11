@@ -311,6 +311,12 @@ li:hover{
     margin-top: 0;
 }
 
+.rotoscohagen-arrow{
+    color: black;
+    transform: scale(3);
+    margin: 0rem auto 2rem auto;
+}
+
 .rotoscohagen-btn{
     font-family: "ohm-bold", sans-serif;
     font-weight: 200;
@@ -370,21 +376,8 @@ background: hsl(220 50% 65% / 1);
         margin: 2rem auto 2rem auto;
     }
 
-
-    .micro-arrow{
-        color: white;
-        transform: scale(2);
-        margin: 2rem auto 2rem auto;
-    }
-
     .chess-arrow{
         color: black;
-        transform: scale(2);
-        margin: 2rem auto 2rem auto;
-    }
-
-    .hex-arrow{
-        color: white;
         transform: scale(2);
         margin: 2rem auto 2rem auto;
     }
@@ -395,9 +388,9 @@ background: hsl(220 50% 65% / 1);
         margin: 2rem auto 2rem auto;
     }
 
-    .beer-arrow{
-        color: white;
-        transform: scale(2);
-        margin: 2rem auto 2rem auto;
+    .rotoscohagen-arrow{
+        color: black;
+        transform: scale(3);
+        margin: 0rem auto 2rem auto;
     }
 }
