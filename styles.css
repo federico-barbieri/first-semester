@@ -178,56 +178,6 @@ li:hover{
     cursor: pointer;
 }
 
-/* HISTORY OF THE MICROCOMPUTER 
-
-#microcomputer{
-    background-color: #018281;
-    color: #EEEEEE;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.microcomputer-title{
-    font-family: ethnocentric, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 7vw;
-    filter:drop-shadow(2px 2px 4px black)
-}
-
-.micro-arrow{
-    color: white;
-    transform: scale(3);
-    margin: 0rem auto 2rem auto;
-}
-
-.micro-btn{
-    font-family: ethnocentric, sans-serif;
-    font-weight: 200;
-    font-style: italic;
-    font-size: 1rem;
-    color: white;
-    background-color:#141E27;
-    transition: all;
-    margin-top: 2rem;
-    padding: 0.5rem 1rem;
-}
-
-.micro-btn:hover{
-    transition-duration: 1s;
-    transition-delay: 0.2s;
-    box-shadow: 2px 4px 4px;
-    border-radius: 5px;
-    color:#141E27;
-    background-color: white;
-    cursor: pointer;
-}
-
-*/
 
 /* CHESSPRESSIONISM */
 
@@ -287,72 +237,12 @@ li:hover{
     cursor: pointer;
 }
 
-/* HEX KBH 
-
-#hex{
-    background: rgb(247,134,246);
-    background: linear-gradient(325deg, rgba(247,134,246,1) 0%, rgba(226,247,60,1) 87%);
-    color: white;
-    
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.hex-title{
-    font-family: "ohm-bold", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 6vw;
-    
-    filter:drop-shadow(2px 2px 4px black)
-}
-
-.hex-arrow{
-    color: white;
-    transform: scale(3);
-    margin: 0rem auto 2rem auto;
-    
-}
-
-.hex-btn{
-    font-family: "ohm-bold", sans-serif;
-    font-weight: 200;
-    font-style: italic;
-    font-size: 1rem;
-    color: white;
-    background-color:#141E27;
-    transition: all;
-    margin-top: 2rem;
-    padding: 0.5rem 1rem;
-}
-
-.hex-btn:hover{
-    transition-duration: 1s;
-    transition-delay: 0.2s;
-    box-shadow: 2px 4px 4px;
-    border-radius: 5px;
-    color:#141E27;
-    background-color: white;
-    cursor: pointer;
-}
-
-*/
 
 /* CHAMELEON */
 
 #chameleon{
 
-    background-color:#1d4362;
-    border-right-style: groove;
-
     background:linear-gradient(to bottom, lightblue, #00B200);
-
-
-    /*background-color: #00B200;*/
 
     color: white;
     text-align: center;
@@ -360,7 +250,7 @@ li:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .chameleon-title{
@@ -400,35 +290,29 @@ li:hover{
     cursor: pointer;
 }
 
-/* BEERWALKS.DK 
+/* rotoscohagen */
 
-#beerwalks{
-    background-color: #1F2125;
-    color: white;
+#rotoscohagen{
+    background:linear-gradient(to bottom, lightblue, #FFB3B3);
+    color: black;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    
+    justify-content: center;
+    overflow: hidden;
 }
 
-.beerwalks-title{
-    font-family: ethnocentric, sans-serif;
+.rotoscohagen-title{
+    font-family: "ohm-bold", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 6vw;
-    filter:drop-shadow(2px 2px 4px black);
+    font-size: 9vw;
+    margin-top: 0;
 }
 
-.beer-arrow{
-    color: white;
-    transform: scale(3);
-    margin: 0rem auto 2rem auto;
-}
-
-.beer-btn{
-    font-family: ethnocentric, sans-serif;
+.rotoscohagen-btn{
+    font-family: "ohm-bold", sans-serif;
     font-weight: 200;
     font-style: italic;
     font-size: 1rem;
@@ -439,7 +323,7 @@ li:hover{
     padding: 0.5rem 1rem;
 }
 
-.beer-btn:hover{
+.rotoscohagen-btn:hover{
     transition-duration: 1s;
     transition-delay: 0.2s;
     box-shadow: 2px 4px 4px;
@@ -449,7 +333,6 @@ li:hover{
     cursor: pointer;
 }
 
-*/
 
 
 /* SCROLLBAR */
