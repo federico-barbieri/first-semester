@@ -367,37 +367,31 @@ margin: 2rem auto;
 
 @media only screen and (max-width: 1000px){
 
-  .gif{
+  .research{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     width: 80vw;
-    height: 110vh;
+    height: 120vh;
     margin: 2rem auto;
 }
 }
 
 @media only screen and (max-width: 800px){
 
-  .gif{
+  .research{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     width: 80vw;
-    height: 90vh;
+    height: 120vh;
     margin: 2rem auto;
 }
-
-.video{
-  height: 60vh;
 }
 
-
-}
-
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
 
   .gif{
     display: flex;
@@ -405,7 +399,7 @@ margin: 2rem auto;
     align-items: center;
     justify-content: space-between;
     width: 80vw;
-    height: 70vh;
+    height: 80vh;
     margin: 2rem auto;
 }
 
@@ -413,35 +407,103 @@ margin: 2rem auto;
   width: 80%;
 }
 
-.video{
-  height: 40vh;
-}
-
 }
 
 
 @media only screen and (max-width: 500px){
 
-  .gif{
+    /* RESEARCH */
+
+  .research{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     width: 80vw;
-    height: 50vh;
+    height: 120vh;
     margin: 2rem auto;
 }
+.research-story{
+    width: 90%;
+}
+
+.research-guitars{
+    width: 90%;
+}
+.guitars-img{
+    max-width: 80%;
+    display: block;
+    margin: 1rem auto;
+}
+
+/* DESIGN */
+
+.design-early-prototype{
+    width: 90%;
+    text-align: left;
+}
+
+.early-prototype-img{
+    max-width: 80%;
+}
+
+.design-illustrations{
+    width: 90%;
+    text-align: left;
+}
+
+.design-img1{
+    max-width: 80%;
+    display: block;
+    margin: 1rem auto;
+}
+
+.design-img2{
+    max-width: 80%;
+    display: block;
+    margin: 1rem auto;
+}
+
+
+ /* CODE */
+
+ .code-aos{
+     width: 90%;
+     text-align: left;
+ }
+
+ .aos-img{
+     max-width: 60%;
+ }
+
+ .code-strings{
+    width: 90%;
+    text-align: left;
+ }
+
+ .code-strings-img{
+    max-width: 100%;
+ }
+
 }
 
 @media only screen and (max-width: 350px){
 
-  .gif{
+     /* CODE */
+
+
+  .research{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     width: 80vw;
-    height: 40vh;
+    height: 140vh;
     margin: 2rem auto;
+    min-height: auto;
+}
+
+.research-h2{
+    font-size: 1.5rem;
 }
 }
