@@ -882,10 +882,10 @@ li:hover{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 0 auto 2rem auto;
+        margin: 5rem auto 2rem auto;
         
         grid-area: elements;
-        border: 2px solid white;
+        
         
     }
     
