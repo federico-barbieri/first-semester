@@ -154,17 +154,12 @@ li:hover{
 
 }
 
-.fa-arrow-down-long{
-    color: white;
-    transform: scale(3);
-    margin: 0rem auto 2rem auto;
-}
 
 .danishcript-btn{
     font-family: "ohm-bold", sans-serif;
     font-weight: 200;
     font-style: italic;
-    font-size: 1rem;
+    font-size: 2rem;
     color: white;
     background-color:#141E27;
     transition: all;
@@ -203,17 +198,12 @@ li:hover{
     margin-top: 0;
 }
 
-.sakurai-arrow{
-    color: white;
-    transform: scale(3);
-    margin: 0rem auto 2rem auto;
-}
 
 .sakurai-btn{
     font-family: "ohm-bold", sans-serif;
     font-weight: 200;
     font-style: italic;
-    font-size: 1rem;
+    font-size: 2rem;
     color: white;
     background-color:#141E27;
     transition: all;
@@ -243,7 +233,6 @@ li:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .chameleon-title{
@@ -255,17 +244,11 @@ li:hover{
     margin-top: 0;
 }
 
-.chameleon-arrow{
-    color: white;
-    transform: scale(3);
-    margin: 0rem auto 2rem auto;
-}
-
 .chameleon-btn{
     font-family: "ohm-bold", sans-serif;
     font-weight: 200;
     font-style: italic;
-    font-size: 1rem;
+    font-size: 2rem;
     color: white;
     background-color:#141E27;
     transition: all;
@@ -304,17 +287,11 @@ li:hover{
     margin-top: 0;
 }
 
-.chess-arrow{
-    color: black;
-    transform: scale(3);
-    margin: 0rem auto 2rem auto;
-}
-
 .chess-btn{
     font-family: "ohm-bold", sans-serif;
     font-weight: 200;
     font-style: italic;
-    font-size: 1rem;
+    font-size: 2rem;
     color: white;
     background-color:#141E27;
     transition: all;
@@ -354,17 +331,11 @@ li:hover{
     margin-top: 0;
 }
 
-.rotoscohagen-arrow{
-    color: black;
-    transform: scale(3);
-    margin: 0rem auto 2rem auto;
-}
-
 .rotoscohagen-btn{
     font-family: "ohm-bold", sans-serif;
     font-weight: 200;
     font-style: italic;
-    font-size: 1rem;
+    font-size: 2rem;
     color: white;
     background-color:#141E27;
     transition: all;
@@ -410,6 +381,31 @@ background: hsl(220 50% 65% / 1);
     
 }
 
+@media only screen and (max-width: 700px){
+
+    /* BTNS */
+
+    .danishcript-btn{
+        font-size: 1.5rem;
+    }
+
+    .sakurai-btn{
+        font-size: 1.5rem;
+    }
+
+    .chameleon-btn{
+        font-size: 1.5rem;
+    }
+
+    .chess-btn{
+        font-size: 1.5rem;
+    }
+
+    .rotoscohagen-btn{
+        font-size: 1.5rem;
+    }
+}
+
 @media only screen and (max-width: 500px){
 
     /* H2 */
@@ -443,27 +439,25 @@ background: hsl(220 50% 65% / 1);
         margin: 2rem auto 2rem auto;
     }
 
-    .chess-arrow{
-        color: black;
-        transform: scale(2);
-        margin: 2rem auto 2rem auto;
+    /* BTNS */
+
+    .danishcript-btn{
+        font-size: 1rem;
     }
 
-    .chameleon-arrow{
-        color: white;
-        transform: scale(2);
-        margin: 2rem auto 2rem auto;
+    .sakurai-btn{
+        font-size: 1rem;
     }
 
-    .sakurai-arrow{
-        color: white;
-        transform: scale(2);
-        margin: 2rem auto 2rem auto;
+    .chameleon-btn{
+        font-size: 1rem;
     }
 
-    .rotoscohagen-arrow{
-        color: black;
-        transform: scale(2);
-        margin: 2rem auto 2rem auto;
+    .chess-btn{
+        font-size: 1rem;
+    }
+
+    .rotoscohagen-btn{
+        font-size: 1rem;
     }
 }
