@@ -111,7 +111,7 @@ li:hover{
     font-family: "ohm-bold", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 15vw;
+    font-size: 14vw;
     
     margin: 15rem auto 5rem auto;
 }
@@ -173,7 +173,7 @@ margin: 2rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   width: 80vw;
   height: 70vh;
   margin: 2rem auto;
@@ -229,9 +229,25 @@ video{
     align-items: center;
     justify-content: space-between;
     width: 80vw;
-    height: 110vh;
+    height: 130vh;
     margin: 2rem auto;
 }
+
+.swan{
+    width: 70%;
+    height: auto;
+}
+
+.up{
+    width: 70%;
+    height: auto;
+}
+
+.tivoli{
+    width: 70%;
+    height: auto;
+}
+
 }
 
 @media only screen and (max-width: 800px){
@@ -242,14 +258,31 @@ video{
     align-items: center;
     justify-content: space-between;
     width: 80vw;
-    height: 90vh;
+    height: 130vh;
     margin: 2rem auto;
 }
 
-.video{
-  height: 60vh;
+.swan{
+    width: 80%;
+    height: auto;
 }
 
+.up{
+    width: 80%;
+    height: auto;
+}
+
+.tivoli{
+    width: 80%;
+    height: auto;
+}
+
+.video{
+  height: 70vh;
+}
+video{
+    width: 100%; 
+}
 
 }
 
@@ -261,17 +294,35 @@ video{
     align-items: center;
     justify-content: space-between;
     width: 80vw;
-    height: 70vh;
+    height: 130vh;
     margin: 2rem auto;
 }
 
+.swan{
+    width: 100%;
+    height: auto;
+}
+
+.up{
+    width: 100%;
+    height: auto;
+}
+
+.tivoli{
+    width: 100%;
+    height: auto;
+}
+
 .text{
-  width: 80%;
+  width: 90%;
 }
 
 .video{
-  height: 40vh;
-}
+    height: 70vh;
+  }
+  video{
+      width: 100%; 
+  }
 
 }
 
@@ -284,9 +335,34 @@ video{
     align-items: center;
     justify-content: space-between;
     width: 80vw;
-    height: 50vh;
-    margin: 2rem auto;
+    height: 100vh;
+    margin: 2rem auto 0 auto;
 }
+.swan{
+    width: 100%;
+    height: auto;
+}
+
+.up{
+    width: 100%;
+    height: auto;
+}
+
+.tivoli{
+    width: 100%;
+    height: auto;
+}
+
+.text{
+  width: 90%;
+}
+
+.video{
+    height: 70vh;
+  }
+  video{
+      width: 100%; 
+  }
 }
 
 @media only screen and (max-width: 350px){
@@ -297,7 +373,37 @@ video{
     align-items: center;
     justify-content: space-between;
     width: 80vw;
-    height: 40vh;
+    height: 65vh;
     margin: 2rem auto;
 }
+.swan{
+    width: 100%;
+    height: auto;
+}
+
+.up{
+    width: 100%;
+    height: auto;
+}
+
+.tivoli{
+    width: 100%;
+    height: auto;
+}
+
+.watch{
+  width: 100%;
+  font-size: 1rem;
+}
+
+.video{
+    height: 30vh;
+  }
+  video{
+      width: 100%; 
+  }
+  .back-btn{
+      font-size: 1rem;
+  }
+
 }
