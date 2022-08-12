@@ -421,15 +421,15 @@ background: hsl(220 50% 65% / 1);
     /* H2 */
 
     .danishcript-title{
-        font-size: 12vw;
+        font-size: 15vw;
     }
 
     .sakurai-title{
-        font-size: 12vw;
+        font-size: 15vw;
     }
 
     .chameleon-title{
-        font-size: 12vw;
+        font-size: 15vw;
     }
 
     .chesspressionism-title{
@@ -437,7 +437,7 @@ background: hsl(220 50% 65% / 1);
     }
 
     .rotoscohagen-title{
-        font-size: 12vw;
+        font-size: 15vw;
     }
 
 
@@ -452,7 +452,7 @@ background: hsl(220 50% 65% / 1);
     /* SKILLS P */
 
     .skill-p{
-        font-size: 5vw;
+        font-size: 8vw;
         margin-top: 0;
     }
 
