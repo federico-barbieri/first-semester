@@ -363,6 +363,50 @@ li:hover{
     cursor: pointer;
 }
 
+/* advertising */
+
+#advertising{
+    background:linear-gradient(to right, lightblue, rgb(219, 123, 161));
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.advertising-title{
+    font-family: "ohm-bold", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 9vw;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.advertising-btn{
+    font-family: "ohm-bold", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 2rem;
+    color: white;
+    background-color:#141E27;
+    transition: all;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.advertising-btn:hover{
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    box-shadow: 2px 4px 4px;
+    border-radius: 5px;
+    color:#141E27;
+    background-color: white;
+    cursor: pointer;
+}
+
 
 
 /* SCROLLBAR */
@@ -414,6 +458,10 @@ background: hsl(220 50% 65% / 1);
     .rotoscohagen-btn{
         font-size: 1.5rem;
     }
+
+    .advertising-btn{
+        font-size: 1.5rem;
+    }
 }
 
 @media only screen and (max-width: 500px){
@@ -437,6 +485,10 @@ background: hsl(220 50% 65% / 1);
     }
 
     .rotoscohagen-title{
+        font-size: 15vw;
+    }
+
+    .advertising-title{
         font-size: 15vw;
     }
 
@@ -475,6 +527,10 @@ background: hsl(220 50% 65% / 1);
     }
 
     .rotoscohagen-btn{
+        font-size: 1rem;
+    }
+
+    .advertising-btn{
         font-size: 1rem;
     }
 }
